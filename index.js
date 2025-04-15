@@ -9,23 +9,17 @@ const app = express();
 // 2. cors es un middleware que se ejecuta desde aqui hacia abajo
 app.use( cors() );
 
-// 3.- ejecuta BD
+// 3. lectura y parseo del body del postman o endpoint
+app.use(express.json());
+
+// 4.- ejecuta BD
 dbConnection();
 
-// creando las rutas del servicio
-app.get('/', (req, res) => {
-    res.json({
-        ok: true,
-        msg: 'Hola mundo!'
-    });
-
-}); 
-
-// 4. Se crean las Rutas
+// 5. Se crean las Rutas
+app.use('/api/usuarios', require('./routes/usuarios.routes'))
 
 
-
-// 5.- ejecutar el servidor
-app.listen(3000, () => {
-console.log('Servidor on-line' + 3000);
+// 6.- ejecutar el servidor
+app.listen(process.env.PORT, () => {
+console.log('Servidor on-line' + process.env.PORT);
 });
