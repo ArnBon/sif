@@ -157,7 +157,7 @@ const editarUsuario = async (req, res = response) => {
             });           
         }
 
-        //2.- actualiza el registro por ese id_usuario
+        //2.- actualiza el registro de los campos de la tabla por ese id_usuario
         const campos = req.body;
 
         //3.- Eliminar campos que no deseo actualizar
@@ -187,7 +187,7 @@ const borrarUsuario = async (req, res = response) => {
 
     try {
 
-    //1.- encuentra el uid
+    //1.- encuentra el id_usuario
     const usuarioDB = await Usuario.findById(id_usuario);
 
            if (!usuarioDB) {

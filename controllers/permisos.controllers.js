@@ -119,16 +119,66 @@ const Permiso = require('../models/permisos.models');
 
 
     const editarPermiso = async(req, res = response) => {
+      const id_permiso = req.params.id;
+
+      try {
+        //1.- encuentra el id_usuario del usuario
+        const permisoDB = await Permiso.findById(id_permiso);
+
+        if (!permisoDB) {
+            return res.status(404).json({
+                ok:true,
+                msg:'Permiso no encontrado por id'
+            });            
+        }
+        //2.- actualiza el registro de los campos de la tabla por ese id_usuario
+        const campos = req.body;
+        
+        //3.- Actuzlizar al permiso en la bd
+        const modificarPermiso = await Permiso.findByIdAndUpdate(id_permiso, campos, {new: true});
         res.json({
             ok:true,
-            msg:'Editando permiso'
-        })
+            permiso: modificarPermiso
+        });
+        
+      } catch (error) {
+        res.status(500).json({
+            ok:false,
+            msg: 'No se puedo actualzar el permiso'
+        });        
+      }
     }
+
+
     const borrarPermiso = async(req, res = response) => {
-        res.json({
-            ok:true,
-            msg:'Borrando permiso'
-        })
+        
+        const id_permiso = req.params.id;
+        
+        try {
+            //1.- encuentra el id_permiso
+            const permisoDB = await Permiso.findById(id_permiso);
+
+            if (!permisoDB) {
+                return res.status(404).json({
+                    ok:true,
+                    msg: 'Permiso no encontrado por id'
+                });                
+            }
+
+            //2.- elimina el registro como tal
+            await Permiso.findByIdAndDelete(id_permiso);
+            res.json({
+                ok:true,
+                msg:'Permiso eliminado....'
+            })
+            
+        } catch (error) {
+            console.log(error);
+            res.status(500).json({
+                ok:false,
+                msg: 'NO se pudo eliminar el registro'
+            });            
+        }
     }
 
 module.exports = {
