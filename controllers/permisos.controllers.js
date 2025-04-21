@@ -17,7 +17,7 @@ const Permiso = require('../models/permisos.models');
             }
 
             const [permisos, total] = await Promise.all([
-                Permiso.find({}, 'nombre_permiso descripcion').skip().limit().lean(), 
+                Permiso.find({}, 'nombre_permiso descripcion').skip(desde).limit(limite).lean(), 
                 Permiso.countDocuments()
             ]);
             res.json({

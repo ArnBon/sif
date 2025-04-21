@@ -18,6 +18,7 @@ dbConnection();
 // 5. Se crean las Rutas
 app.use('/api/usuarios', require('./routes/usuarios.routes'));
 app.use('/api/permisos', require('./routes/permisos.routes'));
+app.use('/api/roles', require('./routes/roles.routes'));
 
 
 // 6.- ejecutar el servidor
