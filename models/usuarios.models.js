@@ -29,7 +29,12 @@ const usuarioSchema = Schema({
     id_persona: {
         type: Schema.Types.ObjectId,
         ref: 'Persona'
-    },    
+    },  
+    
+    roles:[{
+        type:Schema.Types.ObjectId,
+        ref: 'Rol'
+    }]
 });
 
 usuarioSchema.method('toJson', function(){

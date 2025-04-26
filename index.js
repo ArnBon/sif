@@ -15,10 +15,16 @@ app.use(express.json());
 // 4.- ejecuta BD
 dbConnection();
 
-// 5. Se crean las Rutas
+// 5. Se crean las Rutas C.R.U.D.
 app.use('/api/usuarios', require('./routes/usuarios.routes'));
 app.use('/api/permisos', require('./routes/permisos.routes'));
 app.use('/api/roles', require('./routes/roles.routes'));
+
+// 5.1 Seguridad de la aplicacion
+app.use('/api/login');
+app.use('/api/assignRol');
+app.use('/api/assignPermiso');    
+
 
 
 // 6.- ejecutar el servidor
