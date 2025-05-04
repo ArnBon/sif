@@ -21,9 +21,9 @@ app.use('/api/permisos', require('./routes/permisos.routes'));
 app.use('/api/roles', require('./routes/roles.routes'));
 
 // 5.1 Seguridad de la aplicacion
-app.use('/api/login');
-app.use('/api/assignRol');
-app.use('/api/assignPermiso');    
+app.use('/api/login', require('./routes/auth.routes'));
+//app.use('/api/assignRol');
+//app.use('/api/assignPermiso');    
 
 
 
