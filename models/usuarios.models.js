@@ -23,7 +23,7 @@ const usuarioSchema = Schema({
     estatus: {
         type: String,
         enum: ['Activo','Inactivo'],
-        default:['Activo'] 
+        default:'Activo' 
     },
 
     id_persona: {
@@ -37,7 +37,7 @@ const usuarioSchema = Schema({
     }]
 });
 
-usuarioSchema.method('toJson', function(){
+usuarioSchema.method('toJSON', function(){
     const{ __v, _id, contrasena, ...object} = this.toObject();
     object.id_usuario = _id;
     return object;
