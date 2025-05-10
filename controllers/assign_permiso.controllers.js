@@ -20,7 +20,7 @@ const asignarPermisoRol = async(req, res = response) => {
         });        
     }
 
-    //2 Verificar si el permiso existen
+    //2 Verificar si el permiso existe
     const permisos = await Permiso.find({ _id:{$in: permisoId} });
 
     if (permisos.length !== permisoId.length) {

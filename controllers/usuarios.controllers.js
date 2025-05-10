@@ -102,6 +102,43 @@ const getUsuarioById = async(req, res = response) => {
     }
 }
 
+ const getUsuarioRolPermisos = async (req, res = response) => {
+    // Obtener el ID del usuario de los parámetros de la URL es decir ese id
+    //sale de la ruta que puse en /usuariorolpermiso/:id/ -> este id
+    const { id } = req.params;  
+
+    try {
+        // Buscar el usuario y poblar los roles y permisos
+        const usuario = await Usuario.findById(id)
+            .populate({
+                path: 'roles', // Poblar los roles
+                populate: {
+                    path: 'permisos', // Dentro de cada rol, poblar los permisos
+                    model: 'Permiso', // Especificar el modelo de Permiso
+                },
+            });
+
+        if (!usuario) {
+            return res.status(404).json({
+                ok: false,
+                msg: 'Usuario no encontrado',
+            });
+        }
+
+        res.json({
+            ok: true,
+            usuario,
+        });
+    } catch (error) {
+        console.error('Error al obtener el usuario:', error);
+        res.status(500).json({
+            ok: false,
+            msg: 'Error al obtener el usuario',
+            error,
+        });
+    }
+};
+
 const crearUsuario = async (req, res = response) => {
 
     const {  nombre_usuario, contrasena, email, fecha_creacion, estatus } = req.body;
@@ -227,6 +264,7 @@ const borrarUsuario = async (req, res = response) => {
 module.exports = {
     getUsuarios,
     getUsuarioById,
+    getUsuarioRolPermisos,
     crearUsuario,
     editarUsuario,
     borrarUsuario
