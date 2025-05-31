@@ -23,8 +23,10 @@ app.use('/api/roles', require('./routes/roles.routes'));
 // 5.1 Seguridad de la aplicacion
 app.use('/api/login', require('./routes/auth.routes'));
 app.use('/api/assignRol', require('./routes/assign_rol.routes'));
-app.use('/api/assignPermiso', require('./routes/assign_permiso.routes'));    
+app.use('/api/assignPermiso', require('./routes/assign_permiso.routes'));
 
+//Recuperacion de contraseña la ruta cambia porque se usa en un mismo archivo
+app.use('/api/auth', require('./routes/auth.routes'));
 
 
 // 6.- ejecutar el servidor
