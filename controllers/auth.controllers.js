@@ -106,8 +106,7 @@ try {
     /*
     ¡Ahí está el detalle! Si estás usando findByIdAndUpdate
     (como en el código que te compartí), no necesitas usuario.save(), 
-    porque es una actualización directa en la BD. Pero si prefieres
-    usar el enfoque tradicional con save(), aquí te muestro ambas opciones corregidas:
+    porque es una actualización directa en la BD. 
     
     */
             //2.- Eliminar registro de recuperación
