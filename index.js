@@ -20,6 +20,7 @@ app.use('/api/usuarios', require('./routes/usuarios.routes'));
 app.use('/api/permisos', require('./routes/permisos.routes'));
 app.use('/api/roles', require('./routes/roles.routes'));
 app.use('/api/personas', require('./routes/personas.routes'));
+app.use('/api/direccion', require('./routes/direcciones.routes'));
 
 
 // 5.1 Seguridad de la aplicacion

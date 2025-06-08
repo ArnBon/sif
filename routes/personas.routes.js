@@ -1,5 +1,5 @@
-const {Router} = require('express');
-const {getPersona,getPersonaId,crearPersona,actualizarPersona,eliminarPersona} = require('../controllers/personas.controller');
+const { Router } = require('express');
+const { getPersona,getPersonaId,crearPersona,actualizarPersona,eliminarPersona } = require('../controllers/personas.controller');
 const { parsearFechaNacimientoCrear, parsearFechaNacimientoActualizar, formatearFechaRespuesta} = require('../middlewares/validarfechas');
 
 const router = Router();
