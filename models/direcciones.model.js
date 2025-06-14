@@ -3,6 +3,7 @@ const Estado = require('../models/estado.model');
 const Ciudad = require('../models/ciudad.model');
 const Municipio = require('../models/municipio.model');
 const Parroquia = require('../models/parroquia.model');
+const Direccion = require('../models/direcciones.model');
 
 
 
@@ -44,9 +45,16 @@ const direccionSchema = Schema({
         ref: Parroquia,
         required: true
     }
-
-
 });
+
+Direccion.associate = (models) => {
+    Direccion.belongsToMany(models.Persona, {
+      through: 'tbl_personas_direcciones',
+      foreignKey: 'id_direccion',
+      otherKey: 'id_persona',
+      as: 'personas',
+    });
+  }
 
 direccionSchema.method('toJSON', function(){
     const { __v, _id, ...object } = this.toObject();
