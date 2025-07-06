@@ -25,4 +25,4 @@ tipoPersonaSchema.method('toJSON', function() {
   return object;
 });
 
-module.exports = model('TipoPersona', tipoPersonaSchema, 'tbl_tipo_persona');
+module.exports = model('TipoPersona', tipoPersonaSchema);

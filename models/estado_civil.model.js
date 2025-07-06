@@ -25,4 +25,4 @@ estadoCivilSchema.method('toJSON', function() {
   return object;
 });
 
-module.exports = model('EstadoCivil', estadoCivilSchema, 'tbl_estados_civiles');
+module.exports = model('EstadoCivil', estadoCivilSchema);

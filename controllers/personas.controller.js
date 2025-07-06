@@ -27,7 +27,10 @@ const { parsearFechaNacimientoCrear, parsearFechaNacimientoActualizar, formatear
 
         try {
             // Encuentra la persona por ID
-            const personaDB = await Persona.findById(pid);
+            const personaDB = await Persona.findById(pid)
+            .populate('id_genero', 'descripcion codigo')
+            .populate('id_estado_civil', 'descripcion codigo')
+            .populate('id_tipo_persona', 'descripcion codigo');
     
             if (!personaDB) {
                 return res.status(404).json({

@@ -1,0 +1,18 @@
+[
+    {
+        "descripcion": "Soltero",
+        "codigo": "S"
+    },
+    {
+        "descripcion": "Casado",
+        "codigo": "C"
+    },
+    {
+        "descripcion": "Viudo",
+        "codigo": "V"
+    },
+    {
+        "descripcion": "Divorciado",
+        "codigo": "D"
+    }
+]

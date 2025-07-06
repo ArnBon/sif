@@ -1,0 +1,2519 @@
+[
+    {
+        "id_ciudad": 1,
+        "id_estado": 1,
+        "nombre_ciudad": "Puerto Ayacucho"
+    },
+    {
+        "id_ciudad": 2,
+        "id_estado": 2,
+        "nombre_ciudad": "Barcelona"
+    },
+    {
+        "id_ciudad": 3,
+        "id_estado": 3,
+        "nombre_ciudad": "San Fernando de Apure"
+    },
+    {
+        "id_ciudad": 4,
+        "id_estado": 4,
+        "nombre_ciudad": "Maracay"
+    },
+    {
+        "id_ciudad": 5,
+        "id_estado": 5,
+        "nombre_ciudad": "Barinas"
+    },
+    {
+        "id_ciudad": 6,
+        "id_estado": 6,
+        "nombre_ciudad": "Ciudad Bolívar"
+    },
+    {
+        "id_ciudad": 7,
+        "id_estado": 7,
+        "nombre_ciudad": "Valencia"
+    },
+    {
+        "id_ciudad": 8,
+        "id_estado": 8,
+        "nombre_ciudad": "San Carlos"
+    },
+    {
+        "id_ciudad": 9,
+        "id_estado": 9,
+        "nombre_ciudad": "Tucupita"
+    },
+    {
+        "id_ciudad": 10,
+        "id_estado": 10,
+        "nombre_ciudad": "Caracas"
+    },
+    {
+        "id_ciudad": 11,
+        "id_estado": 11,
+        "nombre_ciudad": "Coro"
+    },
+    {
+        "id_ciudad": 12,
+        "id_estado": 12,
+        "nombre_ciudad": "San Juan de Los Morros"
+    },
+    {
+        "id_ciudad": 13,
+        "id_estado": 13,
+        "nombre_ciudad": "Barquisimeto"
+    },
+    {
+        "id_ciudad": 14,
+        "id_estado": 14,
+        "nombre_ciudad": "Mérida"
+    },
+    {
+        "id_ciudad": 15,
+        "id_estado": 15,
+        "nombre_ciudad": "Los Teques"
+    },
+    {
+        "id_ciudad": 16,
+        "id_estado": 16,
+        "nombre_ciudad": "Maturín"
+    },
+    {
+        "id_ciudad": 17,
+        "id_estado": 17,
+        "nombre_ciudad": "La Asunción"
+    },
+    {
+        "id_ciudad": 18,
+        "id_estado": 18,
+        "nombre_ciudad": "Guanare"
+    },
+    {
+        "id_ciudad": 19,
+        "id_estado": 19,
+        "nombre_ciudad": "Cumaná"
+    },
+    {
+        "id_ciudad": 20,
+        "id_estado": 20,
+        "nombre_ciudad": "San Cristóbal"
+    },
+    {
+        "id_ciudad": 21,
+        "id_estado": 21,
+        "nombre_ciudad": "Trujillo"
+    },
+    {
+        "id_ciudad": 22,
+        "id_estado": 22,
+        "nombre_ciudad": "La Guaira"
+    },
+    {
+        "id_ciudad": 23,
+        "id_estado": 23,
+        "nombre_ciudad": "San Felipe"
+    },
+    {
+        "id_ciudad": 24,
+        "id_estado": 24,
+        "nombre_ciudad": "Maracaibo"
+    },
+    {
+        "id_ciudad": 25,
+        "id_estado": 1,
+        "nombre_ciudad": "Maroa"
+    },
+    {
+        "id_ciudad": 26,
+        "id_estado": 1,
+        "nombre_ciudad": "Puerto Ayacucho"
+    },
+    {
+        "id_ciudad": 27,
+        "id_estado": 1,
+        "nombre_ciudad": "San Fernando de Atabapo"
+    },
+    {
+        "id_ciudad": 28,
+        "id_estado": 2,
+        "nombre_ciudad": "Anaco"
+    },
+    {
+        "id_ciudad": 29,
+        "id_estado": 2,
+        "nombre_ciudad": "Aragua de Barcelona"
+    },
+    {
+        "id_ciudad": 30,
+        "id_estado": 2,
+        "nombre_ciudad": "Barcelona"
+    },
+    {
+        "id_ciudad": 31,
+        "id_estado": 2,
+        "nombre_ciudad": "Boca de Uchire"
+    },
+    {
+        "id_ciudad": 32,
+        "id_estado": 2,
+        "nombre_ciudad": "Cantaura"
+    },
+    {
+        "id_ciudad": 33,
+        "id_estado": 2,
+        "nombre_ciudad": "Clarines"
+    },
+    {
+        "id_ciudad": 34,
+        "id_estado": 2,
+        "nombre_ciudad": "El Chaparro"
+    },
+    {
+        "id_ciudad": 35,
+        "id_estado": 2,
+        "nombre_ciudad": "El Pao Anzoátegui"
+    },
+    {
+        "id_ciudad": 36,
+        "id_estado": 2,
+        "nombre_ciudad": "El Tigre"
+    },
+    {
+        "id_ciudad": 37,
+        "id_estado": 2,
+        "nombre_ciudad": "El Tigrito"
+    },
+    {
+        "id_ciudad": 38,
+        "id_estado": 2,
+        "nombre_ciudad": "Guanape"
+    },
+    {
+        "id_ciudad": 39,
+        "id_estado": 2,
+        "nombre_ciudad": "Guanta"
+    },
+    {
+        "id_ciudad": 40,
+        "id_estado": 2,
+        "nombre_ciudad": "Lechería"
+    },
+    {
+        "id_ciudad": 41,
+        "id_estado": 2,
+        "nombre_ciudad": "Onoto"
+    },
+    {
+        "id_ciudad": 42,
+        "id_estado": 2,
+        "nombre_ciudad": "Pariaguán"
+    },
+    {
+        "id_ciudad": 43,
+        "id_estado": 2,
+        "nombre_ciudad": "Píritu"
+    },
+    {
+        "id_ciudad": 44,
+        "id_estado": 2,
+        "nombre_ciudad": "Puerto La Cruz"
+    },
+    {
+        "id_ciudad": 45,
+        "id_estado": 2,
+        "nombre_ciudad": "Puerto Píritu"
+    },
+    {
+        "id_ciudad": 46,
+        "id_estado": 2,
+        "nombre_ciudad": "Sabana de Uchire"
+    },
+    {
+        "id_ciudad": 47,
+        "id_estado": 2,
+        "nombre_ciudad": "San Mateo Anzoátegui"
+    },
+    {
+        "id_ciudad": 48,
+        "id_estado": 2,
+        "nombre_ciudad": "San Pablo Anzoátegui"
+    },
+    {
+        "id_ciudad": 49,
+        "id_estado": 2,
+        "nombre_ciudad": "San Tomé"
+    },
+    {
+        "id_ciudad": 50,
+        "id_estado": 2,
+        "nombre_ciudad": "Santa Ana de Anzoátegui"
+    },
+    {
+        "id_ciudad": 51,
+        "id_estado": 2,
+        "nombre_ciudad": "Santa Fe Anzoátegui"
+    },
+    {
+        "id_ciudad": 52,
+        "id_estado": 2,
+        "nombre_ciudad": "Santa Rosa"
+    },
+    {
+        "id_ciudad": 53,
+        "id_estado": 2,
+        "nombre_ciudad": "Soledad"
+    },
+    {
+        "id_ciudad": 54,
+        "id_estado": 2,
+        "nombre_ciudad": "Urica"
+    },
+    {
+        "id_ciudad": 55,
+        "id_estado": 2,
+        "nombre_ciudad": "Valle de Guanape"
+    },
+    {
+        "id_ciudad": 56,
+        "id_estado": 3,
+        "nombre_ciudad": "Achaguas"
+    },
+    {
+        "id_ciudad": 57,
+        "id_estado": 3,
+        "nombre_ciudad": "Biruaca"
+    },
+    {
+        "id_ciudad": 58,
+        "id_estado": 3,
+        "nombre_ciudad": "Bruzual"
+    },
+    {
+        "id_ciudad": 59,
+        "id_estado": 3,
+        "nombre_ciudad": "El Amparo"
+    },
+    {
+        "id_ciudad": 60,
+        "id_estado": 3,
+        "nombre_ciudad": "El Nula"
+    },
+    {
+        "id_ciudad": 61,
+        "id_estado": 3,
+        "nombre_ciudad": "Elorza"
+    },
+    {
+        "id_ciudad": 62,
+        "id_estado": 3,
+        "nombre_ciudad": "Guasdualito"
+    },
+    {
+        "id_ciudad": 63,
+        "id_estado": 3,
+        "nombre_ciudad": "Mantecal"
+    },
+    {
+        "id_ciudad": 64,
+        "id_estado": 3,
+        "nombre_ciudad": "Puerto Páez"
+    },
+    {
+        "id_ciudad": 65,
+        "id_estado": 3,
+        "nombre_ciudad": "San Fernando de Apure"
+    },
+    {
+        "id_ciudad": 66,
+        "id_estado": 3,
+        "nombre_ciudad": "San Juan de Payara"
+    },
+    {
+        "id_ciudad": 67,
+        "id_estado": 4,
+        "nombre_ciudad": "Barbacoas"
+    },
+    {
+        "id_ciudad": 68,
+        "id_estado": 4,
+        "nombre_ciudad": "Cagua"
+    },
+    {
+        "id_ciudad": 69,
+        "id_estado": 4,
+        "nombre_ciudad": "Camatagua"
+    },
+    {
+        "id_ciudad": 70,
+        "id_estado": 4,
+        "nombre_ciudad": "Choroní"
+    },
+    {
+        "id_ciudad": 71,
+        "id_estado": 4,
+        "nombre_ciudad": "Colonia Tovar"
+    },
+    {
+        "id_ciudad": 72,
+        "id_estado": 4,
+        "nombre_ciudad": "El Consejo"
+    },
+    {
+        "id_ciudad": 73,
+        "id_estado": 4,
+        "nombre_ciudad": "La Victoria"
+    },
+    {
+        "id_ciudad": 74,
+        "id_estado": 4,
+        "nombre_ciudad": "Las Tejerías"
+    },
+    {
+        "id_ciudad": 75,
+        "id_estado": 4,
+        "nombre_ciudad": "Magdaleno"
+    },
+    {
+        "id_ciudad": 76,
+        "id_estado": 4,
+        "nombre_ciudad": "Maracay"
+    },
+    {
+        "id_ciudad": 77,
+        "id_estado": 4,
+        "nombre_ciudad": "Ocumare de La Costa"
+    },
+    {
+        "id_ciudad": 78,
+        "id_estado": 4,
+        "nombre_ciudad": "Palo Negro"
+    },
+    {
+        "id_ciudad": 79,
+        "id_estado": 4,
+        "nombre_ciudad": "San Casimiro"
+    },
+    {
+        "id_ciudad": 80,
+        "id_estado": 4,
+        "nombre_ciudad": "San Mateo"
+    },
+    {
+        "id_ciudad": 81,
+        "id_estado": 4,
+        "nombre_ciudad": "San Sebastián"
+    },
+    {
+        "id_ciudad": 82,
+        "id_estado": 4,
+        "nombre_ciudad": "Santa Cruz de Aragua"
+    },
+    {
+        "id_ciudad": 83,
+        "id_estado": 4,
+        "nombre_ciudad": "Tocorón"
+    },
+    {
+        "id_ciudad": 84,
+        "id_estado": 4,
+        "nombre_ciudad": "Turmero"
+    },
+    {
+        "id_ciudad": 85,
+        "id_estado": 4,
+        "nombre_ciudad": "Villa de Cura"
+    },
+    {
+        "id_ciudad": 86,
+        "id_estado": 4,
+        "nombre_ciudad": "Zuata"
+    },
+    {
+        "id_ciudad": 87,
+        "id_estado": 5,
+        "nombre_ciudad": "Barinas"
+    },
+    {
+        "id_ciudad": 88,
+        "id_estado": 5,
+        "nombre_ciudad": "Barinitas"
+    },
+    {
+        "id_ciudad": 89,
+        "id_estado": 5,
+        "nombre_ciudad": "Barrancas"
+    },
+    {
+        "id_ciudad": 90,
+        "id_estado": 5,
+        "nombre_ciudad": "Calderas"
+    },
+    {
+        "id_ciudad": 91,
+        "id_estado": 5,
+        "nombre_ciudad": "Capitanejo"
+    },
+    {
+        "id_ciudad": 92,
+        "id_estado": 5,
+        "nombre_ciudad": "Ciudad Bolivia"
+    },
+    {
+        "id_ciudad": 93,
+        "id_estado": 5,
+        "nombre_ciudad": "El Cantón"
+    },
+    {
+        "id_ciudad": 94,
+        "id_estado": 5,
+        "nombre_ciudad": "Las Veguitas"
+    },
+    {
+        "id_ciudad": 95,
+        "id_estado": 5,
+        "nombre_ciudad": "Libertad de Barinas"
+    },
+    {
+        "id_ciudad": 96,
+        "id_estado": 5,
+        "nombre_ciudad": "Sabaneta"
+    },
+    {
+        "id_ciudad": 97,
+        "id_estado": 5,
+        "nombre_ciudad": "Santa Bárbara de Barinas"
+    },
+    {
+        "id_ciudad": 98,
+        "id_estado": 5,
+        "nombre_ciudad": "Socopó"
+    },
+    {
+        "id_ciudad": 99,
+        "id_estado": 6,
+        "nombre_ciudad": "Caicara del Orinoco"
+    },
+    {
+        "id_ciudad": 100,
+        "id_estado": 6,
+        "nombre_ciudad": "Canaima"
+    },
+    {
+        "id_ciudad": 101,
+        "id_estado": 6,
+        "nombre_ciudad": "Ciudad Bolívar"
+    },
+    {
+        "id_ciudad": 102,
+        "id_estado": 6,
+        "nombre_ciudad": "Ciudad Piar"
+    },
+    {
+        "id_ciudad": 103,
+        "id_estado": 6,
+        "nombre_ciudad": "El Callao"
+    },
+    {
+        "id_ciudad": 104,
+        "id_estado": 6,
+        "nombre_ciudad": "El Dorado"
+    },
+    {
+        "id_ciudad": 105,
+        "id_estado": 6,
+        "nombre_ciudad": "El Manteco"
+    },
+    {
+        "id_ciudad": 106,
+        "id_estado": 6,
+        "nombre_ciudad": "El Palmar"
+    },
+    {
+        "id_ciudad": 107,
+        "id_estado": 6,
+        "nombre_ciudad": "El Pao"
+    },
+    {
+        "id_ciudad": 108,
+        "id_estado": 6,
+        "nombre_ciudad": "Guasipati"
+    },
+    {
+        "id_ciudad": 109,
+        "id_estado": 6,
+        "nombre_ciudad": "Guri"
+    },
+    {
+        "id_ciudad": 110,
+        "id_estado": 6,
+        "nombre_ciudad": "La Paragua"
+    },
+    {
+        "id_ciudad": 111,
+        "id_estado": 6,
+        "nombre_ciudad": "Matanzas"
+    },
+    {
+        "id_ciudad": 112,
+        "id_estado": 6,
+        "nombre_ciudad": "Puerto Ordaz"
+    },
+    {
+        "id_ciudad": 113,
+        "id_estado": 6,
+        "nombre_ciudad": "San Félix"
+    },
+    {
+        "id_ciudad": 114,
+        "id_estado": 6,
+        "nombre_ciudad": "Santa Elena de Uairén"
+    },
+    {
+        "id_ciudad": 115,
+        "id_estado": 6,
+        "nombre_ciudad": "Tumeremo"
+    },
+    {
+        "id_ciudad": 116,
+        "id_estado": 6,
+        "nombre_ciudad": "Unare"
+    },
+    {
+        "id_ciudad": 117,
+        "id_estado": 6,
+        "nombre_ciudad": "Upata"
+    },
+    {
+        "id_ciudad": 118,
+        "id_estado": 7,
+        "nombre_ciudad": "Bejuma"
+    },
+    {
+        "id_ciudad": 119,
+        "id_estado": 7,
+        "nombre_ciudad": "Belén"
+    },
+    {
+        "id_ciudad": 120,
+        "id_estado": 7,
+        "nombre_ciudad": "Campo de Carabobo"
+    },
+    {
+        "id_ciudad": 121,
+        "id_estado": 7,
+        "nombre_ciudad": "Canoabo"
+    },
+    {
+        "id_ciudad": 122,
+        "id_estado": 7,
+        "nombre_ciudad": "Central Tacarigua"
+    },
+    {
+        "id_ciudad": 123,
+        "id_estado": 7,
+        "nombre_ciudad": "Chirgua"
+    },
+    {
+        "id_ciudad": 124,
+        "id_estado": 7,
+        "nombre_ciudad": "Ciudad Alianza"
+    },
+    {
+        "id_ciudad": 125,
+        "id_estado": 7,
+        "nombre_ciudad": "El Palito"
+    },
+    {
+        "id_ciudad": 126,
+        "id_estado": 7,
+        "nombre_ciudad": "Guacara"
+    },
+    {
+        "id_ciudad": 127,
+        "id_estado": 7,
+        "nombre_ciudad": "Guigue"
+    },
+    {
+        "id_ciudad": 128,
+        "id_estado": 7,
+        "nombre_ciudad": "Las Trincheras"
+    },
+    {
+        "id_ciudad": 129,
+        "id_estado": 7,
+        "nombre_ciudad": "Los Guayos"
+    },
+    {
+        "id_ciudad": 130,
+        "id_estado": 7,
+        "nombre_ciudad": "Mariara"
+    },
+    {
+        "id_ciudad": 131,
+        "id_estado": 7,
+        "nombre_ciudad": "Miranda"
+    },
+    {
+        "id_ciudad": 132,
+        "id_estado": 7,
+        "nombre_ciudad": "Montalbán"
+    },
+    {
+        "id_ciudad": 133,
+        "id_estado": 7,
+        "nombre_ciudad": "Morón"
+    },
+    {
+        "id_ciudad": 134,
+        "id_estado": 7,
+        "nombre_ciudad": "Naguanagua"
+    },
+    {
+        "id_ciudad": 135,
+        "id_estado": 7,
+        "nombre_ciudad": "Puerto Cabello"
+    },
+    {
+        "id_ciudad": 136,
+        "id_estado": 7,
+        "nombre_ciudad": "San Joaquín"
+    },
+    {
+        "id_ciudad": 137,
+        "id_estado": 7,
+        "nombre_ciudad": "Tocuyito"
+    },
+    {
+        "id_ciudad": 138,
+        "id_estado": 7,
+        "nombre_ciudad": "Urama"
+    },
+    {
+        "id_ciudad": 139,
+        "id_estado": 7,
+        "nombre_ciudad": "Valencia"
+    },
+    {
+        "id_ciudad": 140,
+        "id_estado": 7,
+        "nombre_ciudad": "Vigirimita"
+    },
+    {
+        "id_ciudad": 141,
+        "id_estado": 8,
+        "nombre_ciudad": "Aguirre"
+    },
+    {
+        "id_ciudad": 142,
+        "id_estado": 8,
+        "nombre_ciudad": "Apartaderos Cojedes"
+    },
+    {
+        "id_ciudad": 143,
+        "id_estado": 8,
+        "nombre_ciudad": "Arismendi"
+    },
+    {
+        "id_ciudad": 144,
+        "id_estado": 8,
+        "nombre_ciudad": "Camuriquito"
+    },
+    {
+        "id_ciudad": 145,
+        "id_estado": 8,
+        "nombre_ciudad": "El Baúl"
+    },
+    {
+        "id_ciudad": 146,
+        "id_estado": 8,
+        "nombre_ciudad": "El Limón"
+    },
+    {
+        "id_ciudad": 147,
+        "id_estado": 8,
+        "nombre_ciudad": "El Pao Cojedes"
+    },
+    {
+        "id_ciudad": 148,
+        "id_estado": 8,
+        "nombre_ciudad": "El Socorro"
+    },
+    {
+        "id_ciudad": 149,
+        "id_estado": 8,
+        "nombre_ciudad": "La Aguadita"
+    },
+    {
+        "id_ciudad": 150,
+        "id_estado": 8,
+        "nombre_ciudad": "Las Vegas"
+    },
+    {
+        "id_ciudad": 151,
+        "id_estado": 8,
+        "nombre_ciudad": "Libertad de Cojedes"
+    },
+    {
+        "id_ciudad": 152,
+        "id_estado": 8,
+        "nombre_ciudad": "Mapuey"
+    },
+    {
+        "id_ciudad": 153,
+        "id_estado": 8,
+        "nombre_ciudad": "Piñedo"
+    },
+    {
+        "id_ciudad": 154,
+        "id_estado": 8,
+        "nombre_ciudad": "Samancito"
+    },
+    {
+        "id_ciudad": 155,
+        "id_estado": 8,
+        "nombre_ciudad": "San Carlos"
+    },
+    {
+        "id_ciudad": 156,
+        "id_estado": 8,
+        "nombre_ciudad": "Sucre"
+    },
+    {
+        "id_ciudad": 157,
+        "id_estado": 8,
+        "nombre_ciudad": "Tinaco"
+    },
+    {
+        "id_ciudad": 158,
+        "id_estado": 8,
+        "nombre_ciudad": "Tinaquillo"
+    },
+    {
+        "id_ciudad": 159,
+        "id_estado": 8,
+        "nombre_ciudad": "Vallecito"
+    },
+    {
+        "id_ciudad": 160,
+        "id_estado": 9,
+        "nombre_ciudad": "Tucupita"
+    },
+    {
+        "id_ciudad": 161,
+        "id_estado": 10,
+        "nombre_ciudad": "Adícora"
+    },
+    {
+        "id_ciudad": 162,
+        "id_estado": 10,
+        "nombre_ciudad": "Boca de Aroa"
+    },
+    {
+        "id_ciudad": 163,
+        "id_estado": 10,
+        "nombre_ciudad": "Cabure"
+    },
+    {
+        "id_ciudad": 164,
+        "id_estado": 10,
+        "nombre_ciudad": "Capadare"
+    },
+    {
+        "id_ciudad": 165,
+        "id_estado": 10,
+        "nombre_ciudad": "Capatárida"
+    },
+    {
+        "id_ciudad": 166,
+        "id_estado": 10,
+        "nombre_ciudad": "Chichiriviche"
+    },
+    {
+        "id_ciudad": 167,
+        "id_estado": 10,
+        "nombre_ciudad": "Churuguara"
+    },
+    {
+        "id_ciudad": 168,
+        "id_estado": 10,
+        "nombre_ciudad": "Coro"
+    },
+    {
+        "id_ciudad": 169,
+        "id_estado": 10,
+        "nombre_ciudad": "Cumarebo"
+    },
+    {
+        "id_ciudad": 170,
+        "id_estado": 10,
+        "nombre_ciudad": "Dabajuro"
+    },
+    {
+        "id_ciudad": 171,
+        "id_estado": 10,
+        "nombre_ciudad": "Judibana"
+    },
+    {
+        "id_ciudad": 172,
+        "id_estado": 10,
+        "nombre_ciudad": "La Cruz de Taratara"
+    },
+    {
+        "id_ciudad": 173,
+        "id_estado": 10,
+        "nombre_ciudad": "La Vela de Coro"
+    },
+    {
+        "id_ciudad": 174,
+        "id_estado": 10,
+        "nombre_ciudad": "Los Taques"
+    },
+    {
+        "id_ciudad": 175,
+        "id_estado": 10,
+        "nombre_ciudad": "Maparari"
+    },
+    {
+        "id_ciudad": 176,
+        "id_estado": 10,
+        "nombre_ciudad": "Mene de Mauroa"
+    },
+    {
+        "id_ciudad": 177,
+        "id_estado": 10,
+        "nombre_ciudad": "Mirimire"
+    },
+    {
+        "id_ciudad": 178,
+        "id_estado": 10,
+        "nombre_ciudad": "Pedregal"
+    },
+    {
+        "id_ciudad": 179,
+        "id_estado": 10,
+        "nombre_ciudad": "Píritu Falcón"
+    },
+    {
+        "id_ciudad": 180,
+        "id_estado": 10,
+        "nombre_ciudad": "Pueblo Nuevo Falcón"
+    },
+    {
+        "id_ciudad": 181,
+        "id_estado": 10,
+        "nombre_ciudad": "Puerto Cumarebo"
+    },
+    {
+        "id_ciudad": 182,
+        "id_estado": 10,
+        "nombre_ciudad": "Punta Cardón"
+    },
+    {
+        "id_ciudad": 183,
+        "id_estado": 10,
+        "nombre_ciudad": "Punto Fijo"
+    },
+    {
+        "id_ciudad": 184,
+        "id_estado": 10,
+        "nombre_ciudad": "San Juan de Los Cayos"
+    },
+    {
+        "id_ciudad": 185,
+        "id_estado": 10,
+        "nombre_ciudad": "San Luis"
+    },
+    {
+        "id_ciudad": 186,
+        "id_estado": 10,
+        "nombre_ciudad": "Santa Ana Falcón"
+    },
+    {
+        "id_ciudad": 187,
+        "id_estado": 10,
+        "nombre_ciudad": "Santa Cruz De Bucaral"
+    },
+    {
+        "id_ciudad": 188,
+        "id_estado": 10,
+        "nombre_ciudad": "Tocopero"
+    },
+    {
+        "id_ciudad": 189,
+        "id_estado": 10,
+        "nombre_ciudad": "Tocuyo de La Costa"
+    },
+    {
+        "id_ciudad": 190,
+        "id_estado": 10,
+        "nombre_ciudad": "Tucacas"
+    },
+    {
+        "id_ciudad": 191,
+        "id_estado": 10,
+        "nombre_ciudad": "Yaracal"
+    },
+    {
+        "id_ciudad": 192,
+        "id_estado": 11,
+        "nombre_ciudad": "Altagracia de Orituco"
+    },
+    {
+        "id_ciudad": 193,
+        "id_estado": 11,
+        "nombre_ciudad": "Cabruta"
+    },
+    {
+        "id_ciudad": 194,
+        "id_estado": 11,
+        "nombre_ciudad": "Calabozo"
+    },
+    {
+        "id_ciudad": 195,
+        "id_estado": 11,
+        "nombre_ciudad": "Camaguán"
+    },
+    {
+        "id_ciudad": 196,
+        "id_estado": 11,
+        "nombre_ciudad": "Chaguaramas Guárico"
+    },
+    {
+        "id_ciudad": 197,
+        "id_estado": 11,
+        "nombre_ciudad": "El Socorro"
+    },
+    {
+        "id_ciudad": 198,
+        "id_estado": 11,
+        "nombre_ciudad": "El Sombrero"
+    },
+    {
+        "id_ciudad": 199,
+        "id_estado": 11,
+        "nombre_ciudad": "Las Mercedes de Los Llanos"
+    },
+    {
+        "id_ciudad": 200,
+        "id_estado": 11,
+        "nombre_ciudad": "Lezama"
+    },
+           {
+            "id_ciudad": 201,
+            "id_estado": 11,
+            "nombre_ciudad": "Onoto"
+        },
+        {
+            "id_ciudad": 202,
+            "id_estado": 11,
+            "nombre_ciudad": "Ortíz"
+        },
+        {
+            "id_ciudad": 203,
+            "id_estado": 11,
+            "nombre_ciudad": "San José de Guaribe"
+        },
+        {
+            "id_ciudad": 204,
+            "id_estado": 11,
+            "nombre_ciudad": "San Juan de Los Morros"
+        },
+        {
+            "id_ciudad": 205,
+            "id_estado": 11,
+            "nombre_ciudad": "San Rafael de Laya"
+        },
+        {
+            "id_ciudad": 206,
+            "id_estado": 11,
+            "nombre_ciudad": "Santa María de Ipire"
+        },
+        {
+            "id_ciudad": 207,
+            "id_estado": 11,
+            "nombre_ciudad": "Tucupido"
+        },
+        {
+            "id_ciudad": 208,
+            "id_estado": 11,
+            "nombre_ciudad": "Valle de La Pascua"
+        },
+        {
+            "id_ciudad": 209,
+            "id_estado": 11,
+            "nombre_ciudad": "Zaraza"
+        },
+        {
+            "id_ciudad": 210,
+            "id_estado": 12,
+            "nombre_ciudad": "Aguada Grande"
+        },
+        {
+            "id_ciudad": 211,
+            "id_estado": 12,
+            "nombre_ciudad": "Atarigua"
+        },
+        {
+            "id_ciudad": 212,
+            "id_estado": 12,
+            "nombre_ciudad": "Barquisimeto"
+        },
+        {
+            "id_ciudad": 213,
+            "id_estado": 12,
+            "nombre_ciudad": "Bobare"
+        },
+        {
+            "id_ciudad": 214,
+            "id_estado": 12,
+            "nombre_ciudad": "Cabudare"
+        },
+        {
+            "id_ciudad": 215,
+            "id_estado": 12,
+            "nombre_ciudad": "Carora"
+        },
+        {
+            "id_ciudad": 216,
+            "id_estado": 12,
+            "nombre_ciudad": "Cubiro"
+        },
+        {
+            "id_ciudad": 217,
+            "id_estado": 12,
+            "nombre_ciudad": "Cují"
+        },
+        {
+            "id_ciudad": 218,
+            "id_estado": 12,
+            "nombre_ciudad": "Duaca"
+        },
+        {
+            "id_ciudad": 219,
+            "id_estado": 12,
+            "nombre_ciudad": "El Manzano"
+        },
+        {
+            "id_ciudad": 220,
+            "id_estado": 12,
+            "nombre_ciudad": "El Tocuyo"
+        },
+        {
+            "id_ciudad": 221,
+            "id_estado": 12,
+            "nombre_ciudad": "Guaríco"
+        },
+        {
+            "id_ciudad": 222,
+            "id_estado": 12,
+            "nombre_ciudad": "Humocaro Alto"
+        },
+        {
+            "id_ciudad": 223,
+            "id_estado": 12,
+            "nombre_ciudad": "Humocaro Bajo"
+        },
+        {
+            "id_ciudad": 224,
+            "id_estado": 12,
+            "nombre_ciudad": "La Miel"
+        },
+        {
+            "id_ciudad": 225,
+            "id_estado": 12,
+            "nombre_ciudad": "Moroturo"
+        },
+        {
+            "id_ciudad": 226,
+            "id_estado": 12,
+            "nombre_ciudad": "Quíbor"
+        },
+        {
+            "id_ciudad": 227,
+            "id_estado": 12,
+            "nombre_ciudad": "Río Claro"
+        },
+        {
+            "id_ciudad": 228,
+            "id_estado": 12,
+            "nombre_ciudad": "Sanare"
+        },
+        {
+            "id_ciudad": 229,
+            "id_estado": 12,
+            "nombre_ciudad": "Santa Inés"
+        },
+        {
+            "id_ciudad": 230,
+            "id_estado": 12,
+            "nombre_ciudad": "Sarare"
+        },
+        {
+            "id_ciudad": 231,
+            "id_estado": 12,
+            "nombre_ciudad": "Siquisique"
+        },
+        {
+            "id_ciudad": 232,
+            "id_estado": 12,
+            "nombre_ciudad": "Tintorero"
+        },
+        {
+            "id_ciudad": 233,
+            "id_estado": 13,
+            "nombre_ciudad": "Apartaderos Mérida"
+        },
+        {
+            "id_ciudad": 234,
+            "id_estado": 13,
+            "nombre_ciudad": "Arapuey"
+        },
+        {
+            "id_ciudad": 235,
+            "id_estado": 13,
+            "nombre_ciudad": "Bailadores"
+        },
+        {
+            "id_ciudad": 236,
+            "id_estado": 13,
+            "nombre_ciudad": "Caja Seca"
+        },
+        {
+            "id_ciudad": 237,
+            "id_estado": 13,
+            "nombre_ciudad": "Canaguá"
+        },
+        {
+            "id_ciudad": 238,
+            "id_estado": 13,
+            "nombre_ciudad": "Chachopo"
+        },
+        {
+            "id_ciudad": 239,
+            "id_estado": 13,
+            "nombre_ciudad": "Chiguara"
+        },
+        {
+            "id_ciudad": 240,
+            "id_estado": 13,
+            "nombre_ciudad": "Ejido"
+        },
+        {
+            "id_ciudad": 241,
+            "id_estado": 13,
+            "nombre_ciudad": "El Vigía"
+        },
+        {
+            "id_ciudad": 242,
+            "id_estado": 13,
+            "nombre_ciudad": "La Azulita"
+        },
+        {
+            "id_ciudad": 243,
+            "id_estado": 13,
+            "nombre_ciudad": "La Playa"
+        },
+        {
+            "id_ciudad": 244,
+            "id_estado": 13,
+            "nombre_ciudad": "Lagunillas Mérida"
+        },
+        {
+            "id_ciudad": 245,
+            "id_estado": 13,
+            "nombre_ciudad": "Mérida"
+        },
+        {
+            "id_ciudad": 246,
+            "id_estado": 13,
+            "nombre_ciudad": "Mesa de Bolívar"
+        },
+        {
+            "id_ciudad": 247,
+            "id_estado": 13,
+            "nombre_ciudad": "Mucuchíes"
+        },
+        {
+            "id_ciudad": 248,
+            "id_estado": 13,
+            "nombre_ciudad": "Mucujepe"
+        },
+        {
+            "id_ciudad": 249,
+            "id_estado": 13,
+            "nombre_ciudad": "Mucuruba"
+        },
+        {
+            "id_ciudad": 250,
+            "id_estado": 13,
+            "nombre_ciudad": "Nueva Bolivia"
+        },
+        {
+            "id_ciudad": 251,
+            "id_estado": 13,
+            "nombre_ciudad": "Palmarito"
+        },
+        {
+            "id_ciudad": 252,
+            "id_estado": 13,
+            "nombre_ciudad": "Pueblo Llano"
+        },
+        {
+            "id_ciudad": 253,
+            "id_estado": 13,
+            "nombre_ciudad": "Santa Cruz de Mora"
+        },
+        {
+            "id_ciudad": 254,
+            "id_estado": 13,
+            "nombre_ciudad": "Santa Elena de Arenales"
+        },
+        {
+            "id_ciudad": 255,
+            "id_estado": 13,
+            "nombre_ciudad": "Santo Domingo"
+        },
+        {
+            "id_ciudad": 256,
+            "id_estado": 13,
+            "nombre_ciudad": "Tabáy"
+        },
+        {
+            "id_ciudad": 257,
+            "id_estado": 13,
+            "nombre_ciudad": "Timotes"
+        },
+        {
+            "id_ciudad": 258,
+            "id_estado": 13,
+            "nombre_ciudad": "Torondoy"
+        },
+        {
+            "id_ciudad": 259,
+            "id_estado": 13,
+            "nombre_ciudad": "Tovar"
+        },
+        {
+            "id_ciudad": 260,
+            "id_estado": 13,
+            "nombre_ciudad": "Tucani"
+        },
+        {
+            "id_ciudad": 261,
+            "id_estado": 13,
+            "nombre_ciudad": "Zea"
+        },
+        {
+            "id_ciudad": 262,
+            "id_estado": 14,
+            "nombre_ciudad": "Araguita"
+        },
+        {
+            "id_ciudad": 263,
+            "id_estado": 14,
+            "nombre_ciudad": "Carrizal"
+        },
+        {
+            "id_ciudad": 264,
+            "id_estado": 14,
+            "nombre_ciudad": "Caucagua"
+        },
+        {
+            "id_ciudad": 265,
+            "id_estado": 14,
+            "nombre_ciudad": "Chaguaramas Miranda"
+        },
+        {
+            "id_ciudad": 266,
+            "id_estado": 14,
+            "nombre_ciudad": "Charallave"
+        },
+        {
+            "id_ciudad": 267,
+            "id_estado": 14,
+            "nombre_ciudad": "Chirimena"
+        },
+        {
+            "id_ciudad": 268,
+            "id_estado": 14,
+            "nombre_ciudad": "Chuspa"
+        },
+        {
+            "id_ciudad": 269,
+            "id_estado": 14,
+            "nombre_ciudad": "Cúa"
+        },
+        {
+            "id_ciudad": 270,
+            "id_estado": 14,
+            "nombre_ciudad": "Cupira"
+        },
+        {
+            "id_ciudad": 271,
+            "id_estado": 14,
+            "nombre_ciudad": "Curiepe"
+        },
+        {
+            "id_ciudad": 272,
+            "id_estado": 14,
+            "nombre_ciudad": "El Guapo"
+        },
+        {
+            "id_ciudad": 273,
+            "id_estado": 14,
+            "nombre_ciudad": "El Jarillo"
+        },
+        {
+            "id_ciudad": 274,
+            "id_estado": 14,
+            "nombre_ciudad": "Filas de Mariche"
+        },
+        {
+            "id_ciudad": 275,
+            "id_estado": 14,
+            "nombre_ciudad": "Guarenas"
+        },
+        {
+            "id_ciudad": 276,
+            "id_estado": 14,
+            "nombre_ciudad": "Guatire"
+        },
+        {
+            "id_ciudad": 277,
+            "id_estado": 14,
+            "nombre_ciudad": "Higuerote"
+        },
+        {
+            "id_ciudad": 278,
+            "id_estado": 14,
+            "nombre_ciudad": "Los Anaucos"
+        },
+        {
+            "id_ciudad": 279,
+            "id_estado": 14,
+            "nombre_ciudad": "Los Teques"
+        },
+        {
+            "id_ciudad": 280,
+            "id_estado": 14,
+            "nombre_ciudad": "Ocumare del Tuy"
+        },
+        {
+            "id_ciudad": 281,
+            "id_estado": 14,
+            "nombre_ciudad": "Panaquire"
+        },
+        {
+            "id_ciudad": 282,
+            "id_estado": 14,
+            "nombre_ciudad": "Paracotos"
+        },
+        {
+            "id_ciudad": 283,
+            "id_estado": 14,
+            "nombre_ciudad": "Río Chico"
+        },
+        {
+            "id_ciudad": 284,
+            "id_estado": 14,
+            "nombre_ciudad": "San Antonio de Los Altos"
+        },
+        {
+            "id_ciudad": 285,
+            "id_estado": 14,
+            "nombre_ciudad": "San Diego de Los Altos"
+        },
+        {
+            "id_ciudad": 286,
+            "id_estado": 14,
+            "nombre_ciudad": "San Fernando del Guapo"
+        },
+        {
+            "id_ciudad": 287,
+            "id_estado": 14,
+            "nombre_ciudad": "San Francisco de Yare"
+        },
+        {
+            "id_ciudad": 288,
+            "id_estado": 14,
+            "nombre_ciudad": "San José de Los Altos"
+        },
+        {
+            "id_ciudad": 289,
+            "id_estado": 14,
+            "nombre_ciudad": "San José de Río Chico"
+        },
+        {
+            "id_ciudad": 290,
+            "id_estado": 14,
+            "nombre_ciudad": "San Pedro de Los Altos"
+        },
+        {
+            "id_ciudad": 291,
+            "id_estado": 14,
+            "nombre_ciudad": "Santa Lucía"
+        },
+        {
+            "id_ciudad": 292,
+            "id_estado": 14,
+            "nombre_ciudad": "Santa Teresa"
+        },
+        {
+            "id_ciudad": 293,
+            "id_estado": 14,
+            "nombre_ciudad": "Tacarigua de La Laguna"
+        },
+        {
+            "id_ciudad": 294,
+            "id_estado": 14,
+            "nombre_ciudad": "Tacarigua de Mamporal"
+        },
+        {
+            "id_ciudad": 295,
+            "id_estado": 14,
+            "nombre_ciudad": "Tácata"
+        },
+        {
+            "id_ciudad": 296,
+            "id_estado": 14,
+            "nombre_ciudad": "Turumo"
+        },
+        {
+            "id_ciudad": 297,
+            "id_estado": 15,
+            "nombre_ciudad": "Aguasay"
+        },
+        {
+            "id_ciudad": 298,
+            "id_estado": 15,
+            "nombre_ciudad": "Aragua de Maturín"
+        },
+        {
+            "id_ciudad": 299,
+            "id_estado": 15,
+            "nombre_ciudad": "Barrancas del Orinoco"
+        },
+        {
+            "id_ciudad": 300,
+            "id_estado": 15,
+            "nombre_ciudad": "Caicara de Maturín"
+        },
+        {
+            "id_ciudad": 301,
+            "id_estado": 15,
+            "nombre_ciudad": "Caripe"
+        },
+        {
+            "id_ciudad": 302,
+            "id_estado": 15,
+            "nombre_ciudad": "Caripito"
+        },
+        {
+            "id_ciudad": 303,
+            "id_estado": 15,
+            "nombre_ciudad": "Chaguaramal"
+        },
+        {
+            "id_ciudad": 304,
+            "id_estado": 15,
+            "nombre_ciudad": "Chaguaramas Monagas"
+        },
+        {
+            "id_ciudad": 305,
+            "id_estado": 15,
+            "nombre_ciudad": "El Furrial"
+        },
+        {
+            "id_ciudad": 306,
+            "id_estado": 15,
+            "nombre_ciudad": "El Tejero"
+        },
+        {
+            "id_ciudad": 307,
+            "id_estado": 15,
+            "nombre_ciudad": "Jusepín"
+        },
+        {
+            "id_ciudad": 308,
+            "id_estado": 15,
+            "nombre_ciudad": "La Toscana"
+        },
+        {
+            "id_ciudad": 309,
+            "id_estado": 15,
+            "nombre_ciudad": "Maturín"
+        },
+        {
+            "id_ciudad": 310,
+            "id_estado": 15,
+            "nombre_ciudad": "Miraflores"
+        },
+        {
+            "id_ciudad": 311,
+            "id_estado": 15,
+            "nombre_ciudad": "Punta de Mata"
+        },
+        {
+            "id_ciudad": 312,
+            "id_estado": 15,
+            "nombre_ciudad": "Quiriquire"
+        },
+        {
+            "id_ciudad": 313,
+            "id_estado": 15,
+            "nombre_ciudad": "San Antonio de Maturín"
+        },
+        {
+            "id_ciudad": 314,
+            "id_estado": 15,
+            "nombre_ciudad": "San Vicente Monagas"
+        },
+        {
+            "id_ciudad": 315,
+            "id_estado": 15,
+            "nombre_ciudad": "Santa Bárbara"
+        },
+        {
+            "id_ciudad": 316,
+            "id_estado": 15,
+            "nombre_ciudad": "Temblador"
+        },
+        {
+            "id_ciudad": 317,
+            "id_estado": 15,
+            "nombre_ciudad": "Teresen"
+        },
+        {
+            "id_ciudad": 318,
+            "id_estado": 15,
+            "nombre_ciudad": "Uracoa"
+        },
+        {
+            "id_ciudad": 319,
+            "id_estado": 16,
+            "nombre_ciudad": "Altagracia"
+        },
+        {
+            "id_ciudad": 320,
+            "id_estado": 16,
+            "nombre_ciudad": "Boca de Pozo"
+        },
+        {
+            "id_ciudad": 321,
+            "id_estado": 16,
+            "nombre_ciudad": "Boca de Río"
+        },
+        {
+            "id_ciudad": 322,
+            "id_estado": 16,
+            "nombre_ciudad": "El Espinal"
+        },
+        {
+            "id_ciudad": 323,
+            "id_estado": 16,
+            "nombre_ciudad": "El Valle del Espíritu Santo"
+        },
+        {
+            "id_ciudad": 324,
+            "id_estado": 16,
+            "nombre_ciudad": "El Yaque"
+        },
+        {
+            "id_ciudad": 325,
+            "id_estado": 16,
+            "nombre_ciudad": "Juangriego"
+        },
+        {
+            "id_ciudad": 326,
+            "id_estado": 16,
+            "nombre_ciudad": "La Asunción"
+        },
+        {
+            "id_ciudad": 327,
+            "id_estado": 16,
+            "nombre_ciudad": "La Guardia"
+        },
+        {
+            "id_ciudad": 328,
+            "id_estado": 16,
+            "nombre_ciudad": "Pampatar"
+        },
+        {
+            "id_ciudad": 329,
+            "id_estado": 16,
+            "nombre_ciudad": "Porlamar"
+        },
+        {
+            "id_ciudad": 330,
+            "id_estado": 16,
+            "nombre_ciudad": "Puerto Fermín"
+        },
+        {
+            "id_ciudad": 331,
+            "id_estado": 16,
+            "nombre_ciudad": "Punta de Piedras"
+        },
+        {
+            "id_ciudad": 332,
+            "id_estado": 16,
+            "nombre_ciudad": "San Francisco de Macanao"
+        },
+        {
+            "id_ciudad": 333,
+            "id_estado": 16,
+            "nombre_ciudad": "San Juan Bautista"
+        },
+        {
+            "id_ciudad": 334,
+            "id_estado": 16,
+            "nombre_ciudad": "San Pedro de Coche"
+        },
+        {
+            "id_ciudad": 335,
+            "id_estado": 16,
+            "nombre_ciudad": "Santa Ana de Nueva Esparta"
+        },
+        {
+            "id_ciudad": 336,
+            "id_estado": 16,
+            "nombre_ciudad": "Villa Rosa"
+        },
+        {
+            "id_ciudad": 337,
+            "id_estado": 17,
+            "nombre_ciudad": "Acarigua"
+        },
+        {
+            "id_ciudad": 338,
+            "id_estado": 17,
+            "nombre_ciudad": "Agua Blanca"
+        },
+        {
+            "id_ciudad": 339,
+            "id_estado": 17,
+            "nombre_ciudad": "Araure"
+        },
+        {
+            "id_ciudad": 340,
+            "id_estado": 17,
+            "nombre_ciudad": "Biscucuy"
+        },
+        {
+            "id_ciudad": 341,
+            "id_estado": 17,
+            "nombre_ciudad": "Boconoito"
+        },
+        {
+            "id_ciudad": 342,
+            "id_estado": 17,
+            "nombre_ciudad": "Campo Elías"
+        },
+        {
+            "id_ciudad": 343,
+            "id_estado": 17,
+            "nombre_ciudad": "Chabasquén"
+        },
+        {
+            "id_ciudad": 344,
+            "id_estado": 17,
+            "nombre_ciudad": "Guanare"
+        },
+        {
+            "id_ciudad": 345,
+            "id_estado": 17,
+            "nombre_ciudad": "Guanarito"
+        },
+        {
+            "id_ciudad": 346,
+            "id_estado": 17,
+            "nombre_ciudad": "La Aparición"
+        },
+        {
+            "id_ciudad": 347,
+            "id_estado": 17,
+            "nombre_ciudad": "La Misión"
+        },
+        {
+            "id_ciudad": 348,
+            "id_estado": 17,
+            "nombre_ciudad": "Mesa de Cavacas"
+        },
+        {
+            "id_ciudad": 349,
+            "id_estado": 17,
+            "nombre_ciudad": "Ospino"
+        },
+        {
+            "id_ciudad": 350,
+            "id_estado": 17,
+            "nombre_ciudad": "Papelón"
+        },
+        {
+            "id_ciudad": 351,
+            "id_estado": 17,
+            "nombre_ciudad": "Payara"
+        },
+        {
+            "id_ciudad": 352,
+            "id_estado": 17,
+            "nombre_ciudad": "Pimpinela"
+        },
+        {
+            "id_ciudad": 353,
+            "id_estado": 17,
+            "nombre_ciudad": "Píritu de Portuguesa"
+        },
+        {
+            "id_ciudad": 354,
+            "id_estado": 17,
+            "nombre_ciudad": "San Rafael de Onoto"
+        },
+        {
+            "id_ciudad": 355,
+            "id_estado": 17,
+            "nombre_ciudad": "Santa Rosalía"
+        },
+        {
+            "id_ciudad": 356,
+            "id_estado": 17,
+            "nombre_ciudad": "Turén"
+        },
+        {
+            "id_ciudad": 357,
+            "id_estado": 18,
+            "nombre_ciudad": "Altos de Sucre"
+        },
+        {
+            "id_ciudad": 358,
+            "id_estado": 18,
+            "nombre_ciudad": "Araya"
+        },
+        {
+            "id_ciudad": 359,
+            "id_estado": 18,
+            "nombre_ciudad": "Cariaco"
+        },
+        {
+            "id_ciudad": 360,
+            "id_estado": 18,
+            "nombre_ciudad": "Carúpano"
+        },
+        {
+            "id_ciudad": 361,
+            "id_estado": 18,
+            "nombre_ciudad": "Casanay"
+        },
+        {
+            "id_ciudad": 362,
+            "id_estado": 18,
+            "nombre_ciudad": "Cumaná"
+        },
+        {
+            "id_ciudad": 363,
+            "id_estado": 18,
+            "nombre_ciudad": "Cumanacoa"
+        },
+        {
+            "id_ciudad": 364,
+            "id_estado": 18,
+            "nombre_ciudad": "El Morro Puerto Santo"
+        },
+        {
+            "id_ciudad": 365,
+            "id_estado": 18,
+            "nombre_ciudad": "El Pilar"
+        },
+        {
+            "id_ciudad": 366,
+            "id_estado": 18,
+            "nombre_ciudad": "El Poblado"
+        },
+        {
+            "id_ciudad": 367,
+            "id_estado": 18,
+            "nombre_ciudad": "Guaca"
+        },
+        {
+            "id_ciudad": 368,
+            "id_estado": 18,
+            "nombre_ciudad": "Guiria"
+        },
+        {
+            "id_ciudad": 369,
+            "id_estado": 18,
+            "nombre_ciudad": "Irapa"
+        },
+        {
+            "id_ciudad": 370,
+            "id_estado": 18,
+            "nombre_ciudad": "Manicuare"
+        },
+        {
+            "id_ciudad": 371,
+            "id_estado": 18,
+            "nombre_ciudad": "Mariguitar"
+        },
+        {
+            "id_ciudad": 372,
+            "id_estado": 18,
+            "nombre_ciudad": "Río Caribe"
+        },
+        {
+            "id_ciudad": 373,
+            "id_estado": 18,
+            "nombre_ciudad": "San Antonio del Golfo"
+        },
+        {
+            "id_ciudad": 374,
+            "id_estado": 18,
+            "nombre_ciudad": "San José de Aerocuar"
+        },
+        {
+            "id_ciudad": 375,
+            "id_estado": 18,
+            "nombre_ciudad": "San Vicente de Sucre"
+        },
+        {
+            "id_ciudad": 376,
+            "id_estado": 18,
+            "nombre_ciudad": "Santa Fe de Sucre"
+        },
+        {
+            "id_ciudad": 377,
+            "id_estado": 18,
+            "nombre_ciudad": "Tunapuy"
+        },
+        {
+            "id_ciudad": 378,
+            "id_estado": 18,
+            "nombre_ciudad": "Yaguaraparo"
+        },
+        {
+            "id_ciudad": 379,
+            "id_estado": 18,
+            "nombre_ciudad": "Yoco"
+        },
+        {
+            "id_ciudad": 380,
+            "id_estado": 19,
+            "nombre_ciudad": "Abejales"
+        },
+        {
+            "id_ciudad": 381,
+            "id_estado": 19,
+            "nombre_ciudad": "Borota"
+        },
+        {
+            "id_ciudad": 382,
+            "id_estado": 19,
+            "nombre_ciudad": "Bramon"
+        },
+        {
+            "id_ciudad": 383,
+            "id_estado": 19,
+            "nombre_ciudad": "Capacho"
+        },
+        {
+            "id_ciudad": 384,
+            "id_estado": 19,
+            "nombre_ciudad": "Colón"
+        },
+        {
+            "id_ciudad": 385,
+            "id_estado": 19,
+            "nombre_ciudad": "Coloncito"
+        },
+        {
+            "id_ciudad": 386,
+            "id_estado": 19,
+            "nombre_ciudad": "Cordero"
+        },
+        {
+            "id_ciudad": 387,
+            "id_estado": 19,
+            "nombre_ciudad": "El Cobre"
+        },
+        {
+            "id_ciudad": 388,
+            "id_estado": 19,
+            "nombre_ciudad": "El Pinal"
+        },
+        {
+            "id_ciudad": 389,
+            "id_estado": 19,
+            "nombre_ciudad": "Independencia"
+        },
+        {
+            "id_ciudad": 390,
+            "id_estado": 19,
+            "nombre_ciudad": "La Fría"
+        },
+        {
+            "id_ciudad": 391,
+            "id_estado": 19,
+            "nombre_ciudad": "La Grita"
+        },
+        {
+            "id_ciudad": 392,
+            "id_estado": 19,
+            "nombre_ciudad": "La Pedrera"
+        },
+        {
+            "id_ciudad": 393,
+            "id_estado": 19,
+            "nombre_ciudad": "La Tendida"
+        },
+        {
+            "id_ciudad": 394,
+            "id_estado": 19,
+            "nombre_ciudad": "Las Delicias"
+        },
+        {
+            "id_ciudad": 395,
+            "id_estado": 19,
+            "nombre_ciudad": "Las Hernández"
+        },
+        {
+            "id_ciudad": 396,
+            "id_estado": 19,
+            "nombre_ciudad": "Lobatera"
+        },
+        {
+            "id_ciudad": 397,
+            "id_estado": 19,
+            "nombre_ciudad": "Michelena"
+        },
+        {
+            "id_ciudad": 398,
+            "id_estado": 19,
+            "nombre_ciudad": "Palmira"
+        },
+        {
+            "id_ciudad": 399,
+            "id_estado": 19,
+            "nombre_ciudad": "Pregonero"
+        },
+        {
+            "id_ciudad": 400,
+            "id_estado": 19,
+            "nombre_ciudad": "Queniquea"
+        },
+        {
+            "id_ciudad": 401,
+            "id_estado": 19,
+            "nombre_ciudad": "Rubio"
+        },
+    
+    {
+        "id_ciudad": 402,
+        "id_estado": 19,
+        "nombre_ciudad": "San Antonio del Tachira"
+    },
+    {
+        "id_ciudad": 403,
+        "id_estado": 19,
+        "nombre_ciudad": "San Cristobal"
+    },
+    {
+        "id_ciudad": 404,
+        "id_estado": 19,
+        "nombre_ciudad": "San José de Bolívar"
+    },
+    {
+        "id_ciudad": 405,
+        "id_estado": 19,
+        "nombre_ciudad": "San Josecito"
+    },
+    {
+        "id_ciudad": 406,
+        "id_estado": 19,
+        "nombre_ciudad": "San Pedro del Río"
+    },
+    {
+        "id_ciudad": 407,
+        "id_estado": 19,
+        "nombre_ciudad": "Santa Ana Táchira"
+    },
+    {
+        "id_ciudad": 408,
+        "id_estado": 19,
+        "nombre_ciudad": "Seboruco"
+    },
+    {
+        "id_ciudad": 409,
+        "id_estado": 19,
+        "nombre_ciudad": "Táriba"
+    },
+    {
+        "id_ciudad": 410,
+        "id_estado": 19,
+        "nombre_ciudad": "Umuquena"
+    },
+    {
+        "id_ciudad": 411,
+        "id_estado": 20,
+        "nombre_ciudad": "Batatal"
+    },
+    {
+        "id_ciudad": 412,
+        "id_estado": 20,
+        "nombre_ciudad": "Betijoque"
+    },
+    {
+        "id_ciudad": 413,
+        "id_estado": 20,
+        "nombre_ciudad": "Boconó"
+    },
+    {
+        "id_ciudad": 414,
+        "id_estado": 20,
+        "nombre_ciudad": "Carache"
+    },
+    {
+        "id_ciudad": 415,
+        "id_estado": 20,
+        "nombre_ciudad": "Chejende"
+    },
+    {
+        "id_ciudad": 416,
+        "id_estado": 20,
+        "nombre_ciudad": "Cuicas"
+    },
+    {
+        "id_ciudad": 417,
+        "id_estado": 20,
+        "nombre_ciudad": "El Dividive"
+    },
+    {
+        "id_ciudad": 418,
+        "id_estado": 20,
+        "nombre_ciudad": "El Jaguito"
+    },
+    {
+        "id_ciudad": 419,
+        "id_estado": 20,
+        "nombre_ciudad": "Escuque"
+    },
+    {
+        "id_ciudad": 420,
+        "id_estado": 20,
+        "nombre_ciudad": "Isnotú"
+    },
+    {
+        "id_ciudad": 421,
+        "id_estado": 20,
+        "nombre_ciudad": "Jajó"
+    },
+    {
+        "id_ciudad": 422,
+        "id_estado": 20,
+        "nombre_ciudad": "La Ceiba"
+    },
+    {
+        "id_ciudad": 423,
+        "id_estado": 20,
+        "nombre_ciudad": "La Concepción de Trujllo"
+    },
+    {
+        "id_ciudad": 424,
+        "id_estado": 20,
+        "nombre_ciudad": "La Mesa de Esnujaque"
+    },
+    {
+        "id_ciudad": 425,
+        "id_estado": 20,
+        "nombre_ciudad": "La Puerta"
+    },
+    {
+        "id_ciudad": 426,
+        "id_estado": 20,
+        "nombre_ciudad": "La Quebrada"
+    },
+    {
+        "id_ciudad": 427,
+        "id_estado": 20,
+        "nombre_ciudad": "Mendoza Fría"
+    },
+    {
+        "id_ciudad": 428,
+        "id_estado": 20,
+        "nombre_ciudad": "Meseta de Chimpire"
+    },
+    {
+        "id_ciudad": 429,
+        "id_estado": 20,
+        "nombre_ciudad": "Monay"
+    },
+    {
+        "id_ciudad": 430,
+        "id_estado": 20,
+        "nombre_ciudad": "Motatán"
+    },
+    {
+        "id_ciudad": 431,
+        "id_estado": 20,
+        "nombre_ciudad": "Pampán"
+    },
+    {
+        "id_ciudad": 432,
+        "id_estado": 20,
+        "nombre_ciudad": "Pampanito"
+    },
+    {
+        "id_ciudad": 433,
+        "id_estado": 20,
+        "nombre_ciudad": "Sabana de Mendoza"
+    },
+    {
+        "id_ciudad": 434,
+        "id_estado": 20,
+        "nombre_ciudad": "San Lázaro"
+    },
+    {
+        "id_ciudad": 435,
+        "id_estado": 20,
+        "nombre_ciudad": "Santa Ana de Trujillo"
+    },
+    {
+        "id_ciudad": 436,
+        "id_estado": 20,
+        "nombre_ciudad": "Tostós"
+    },
+    {
+        "id_ciudad": 437,
+        "id_estado": 20,
+        "nombre_ciudad": "Trujillo"
+    },
+    {
+        "id_ciudad": 438,
+        "id_estado": 20,
+        "nombre_ciudad": "Valera"
+    },
+    {
+        "id_ciudad": 439,
+        "id_estado": 21,
+        "nombre_ciudad": "Carayaca"
+    },
+    {
+        "id_ciudad": 440,
+        "id_estado": 21,
+        "nombre_ciudad": "Litoral"
+    },
+    {
+        "id_ciudad": 441,
+        "id_estado": 22,
+        "nombre_ciudad": "Aroa"
+    },
+    {
+        "id_ciudad": 442,
+        "id_estado": 22,
+        "nombre_ciudad": "Boraure"
+    },
+    {
+        "id_ciudad": 443,
+        "id_estado": 22,
+        "nombre_ciudad": "Campo Elías de Yaracuy"
+    },
+    {
+        "id_ciudad": 444,
+        "id_estado": 22,
+        "nombre_ciudad": "Chivacoa"
+    },
+    {
+        "id_ciudad": 445,
+        "id_estado": 22,
+        "nombre_ciudad": "Cocorote"
+    },
+    {
+        "id_ciudad": 446,
+        "id_estado": 22,
+        "nombre_ciudad": "Farriar"
+    },
+    {
+        "id_ciudad": 447,
+        "id_estado": 22,
+        "nombre_ciudad": "Guama"
+    },
+    {
+        "id_ciudad": 448,
+        "id_estado": 22,
+        "nombre_ciudad": "Marín"
+    },
+    {
+        "id_ciudad": 449,
+        "id_estado": 22,
+        "nombre_ciudad": "Nirgua"
+    },
+    {
+        "id_ciudad": 450,
+        "id_estado": 22,
+        "nombre_ciudad": "Sabana de Parra"
+    },
+    {
+        "id_ciudad": 451,
+        "id_estado": 22,
+        "nombre_ciudad": "Salom"
+    },
+    {
+        "id_ciudad": 452,
+        "id_estado": 22,
+        "nombre_ciudad": "San Felipe"
+    },
+    {
+        "id_ciudad": 453,
+        "id_estado": 22,
+        "nombre_ciudad": "San Pablo de Yaracuy"
+    },
+    {
+        "id_ciudad": 454,
+        "id_estado": 22,
+        "nombre_ciudad": "Urachiche"
+    },
+    {
+        "id_ciudad": 455,
+        "id_estado": 22,
+        "nombre_ciudad": "Yaritagua"
+    },
+    {
+        "id_ciudad": 456,
+        "id_estado": 22,
+        "nombre_ciudad": "Yumare"
+    },
+    {
+        "id_ciudad": 457,
+        "id_estado": 23,
+        "nombre_ciudad": "Bachaquero"
+    },
+    {
+        "id_ciudad": 458,
+        "id_estado": 23,
+        "nombre_ciudad": "Bobures"
+    },
+    {
+        "id_ciudad": 459,
+        "id_estado": 23,
+        "nombre_ciudad": "Cabimas"
+    },
+    {
+        "id_ciudad": 460,
+        "id_estado": 23,
+        "nombre_ciudad": "Campo Concepción"
+    },
+    {
+        "id_ciudad": 461,
+        "id_estado": 23,
+        "nombre_ciudad": "Campo Mara"
+    },
+    {
+        "id_ciudad": 462,
+        "id_estado": 23,
+        "nombre_ciudad": "Campo Rojo"
+    },
+    {
+        "id_ciudad": 463,
+        "id_estado": 23,
+        "nombre_ciudad": "Carrasquero"
+    },
+    {
+        "id_ciudad": 464,
+        "id_estado": 23,
+        "nombre_ciudad": "Casigua"
+    },
+    {
+        "id_ciudad": 465,
+        "id_estado": 23,
+        "nombre_ciudad": "Chiquinquirá"
+    },
+    {
+        "id_ciudad": 466,
+        "id_estado": 23,
+        "nombre_ciudad": "Ciudad Ojeda"
+    },
+    {
+        "id_ciudad": 467,
+        "id_estado": 23,
+        "nombre_ciudad": "El Batey"
+    },
+    {
+        "id_ciudad": 468,
+        "id_estado": 23,
+        "nombre_ciudad": "El Carmelo"
+    },
+    {
+        "id_ciudad": 469,
+        "id_estado": 23,
+        "nombre_ciudad": "El Chivo"
+    },
+    {
+        "id_ciudad": 470,
+        "id_estado": 23,
+        "nombre_ciudad": "El Guayabo"
+    },
+    {
+        "id_ciudad": 471,
+        "id_estado": 23,
+        "nombre_ciudad": "El Mene"
+    },
+    {
+        "id_ciudad": 472,
+        "id_estado": 23,
+        "nombre_ciudad": "El Venado"
+    },
+    {
+        "id_ciudad": 473,
+        "id_estado": 23,
+        "nombre_ciudad": "Encontrados"
+    },
+    {
+        "id_ciudad": 474,
+        "id_estado": 23,
+        "nombre_ciudad": "Gibraltar"
+    },
+    {
+        "id_ciudad": 475,
+        "id_estado": 23,
+        "nombre_ciudad": "Isla de Toas"
+    },
+    {
+        "id_ciudad": 476,
+        "id_estado": 23,
+        "nombre_ciudad": "La Concepción"
+    },
+    {
+        "id_ciudad": 477,
+        "id_estado": 23,
+        "nombre_ciudad": "La Paz"
+    },
+    {
+        "id_ciudad": 478,
+        "id_estado": 23,
+        "nombre_ciudad": "La Sierrita"
+    },
+    {
+        "id_ciudad": 479,
+        "id_estado": 23,
+        "nombre_ciudad": "Lagunillas"
+    },
+    {
+        "id_ciudad": 480,
+        "id_estado": 23,
+        "nombre_ciudad": "Las Piedras"
+    },
+    {
+        "id_ciudad": 481,
+        "id_estado": 23,
+        "nombre_ciudad": "Los Cortijos"
+    },
+    {
+        "id_ciudad": 482,
+        "id_estado": 23,
+        "nombre_ciudad": "Machiques"
+    },
+    {
+        "id_ciudad": 483,
+        "id_estado": 23,
+        "nombre_ciudad": "Maracaibo"
+    },
+    {
+        "id_ciudad": 484,
+        "id_estado": 23,
+        "nombre_ciudad": "Mene Grande"
+    },
+    {
+        "id_ciudad": 485,
+        "id_estado": 23,
+        "nombre_ciudad": "Palmarejo"
+    },
+    {
+        "id_ciudad": 486,
+        "id_estado": 23,
+        "nombre_ciudad": "Paraguaipoa"
+    },
+    {
+        "id_ciudad": 487,
+        "id_estado": 23,
+        "nombre_ciudad": "Potrerito"
+    },
+    {
+        "id_ciudad": 488,
+        "id_estado": 23,
+        "nombre_ciudad": "Pueblo Nuevo"
+    },
+    {
+        "id_ciudad": 489,
+        "id_estado": 23,
+        "nombre_ciudad": "Puertos de Altagracia"
+    },
+    {
+        "id_ciudad": 490,
+        "id_estado": 23,
+        "nombre_ciudad": "Punta Gorda"
+    },
+    {
+        "id_ciudad": 491,
+        "id_estado": 23,
+        "nombre_ciudad": "Sabaneta de Palma"
+    },
+    {
+        "id_ciudad": 492,
+        "id_estado": 23,
+        "nombre_ciudad": "San Francisco"
+    },
+    {
+        "id_ciudad": 493,
+        "id_estado": 23,
+        "nombre_ciudad": "San José de Perijá"
+    },
+    {
+        "id_ciudad": 494,
+        "id_estado": 23,
+        "nombre_ciudad": "San Rafael del Moján"
+    },
+    {
+        "id_ciudad": 495,
+        "id_estado": 23,
+        "nombre_ciudad": "San Timoteo"
+    },
+    {
+        "id_ciudad": 496,
+        "id_estado": 23,
+        "nombre_ciudad": "Santa Bárbara del Zulia"
+    },
+    {
+        "id_ciudad": 497,
+        "id_estado": 23,
+        "nombre_ciudad": "Santa Cruz de Mara"
+    },
+    {
+        "id_ciudad": 498,
+        "id_estado": 23,
+        "nombre_ciudad": "Santa Cruz del Zulia"
+    },
+    {
+        "id_ciudad": 499,
+        "id_estado": 23,
+        "nombre_ciudad": "Santa Rita"
+    },
+    {
+        "id_ciudad": 500,
+        "id_estado": 23,
+        "nombre_ciudad": "Sinamaica"
+    },
+    {
+        "id_ciudad": 501,
+        "id_estado": 23,
+        "nombre_ciudad": "Tamare"
+    },
+    {
+        "id_ciudad": 502,
+        "id_estado": 23,
+        "nombre_ciudad": "Tía Juana"
+    },
+    {
+        "id_ciudad": 503,
+        "id_estado": 23,
+        "nombre_ciudad": "Villa Rosario"
+    }
+]
+

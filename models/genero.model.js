@@ -26,4 +26,4 @@ generoSchema.method('toJSON', function() {
   return object;
 });
 
-module.exports = model('Genero', generoSchema, 'tbl_generos');
+module.exports = model('Genero', generoSchema);

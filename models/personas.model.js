@@ -100,4 +100,4 @@ personaSchema.method('toJSON', function() {
 // En Mongoose las relaciones se manejan con populate, no con associate
 // Las relaciones N:M se gestionan a través de los modelos separados
 
-module.exports = model('Persona', personaSchema, 'tbl_personas');
+module.exports = model('Persona', personaSchema);

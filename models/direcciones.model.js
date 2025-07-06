@@ -13,7 +13,7 @@ const direccionSchema = Schema({
         type: String,
         required: true
     },
-    
+
     cod_postal: {
         type: String
     },
@@ -34,22 +34,25 @@ const direccionSchema = Schema({
         required: true
     },
 
+    id_parroquia: {
+        type: Schema.Types.ObjectId,
+        ref: Parroquia,
+        required: true
+    },
+
     id_municipio: {
         type: Schema.Types.ObjectId,
         ref: Municipio,
         required: true
     },
+        
 
-    id_parroquia: {
-        type: Schema.Types.ObjectId,
-        ref: Parroquia,
-        required: true
-    }
+
 });
 
 Direccion.associate = (models) => {
     Direccion.belongsToMany(models.Persona, {
-      through: 'tbl_personas_direcciones',
+      through: 'personas_direcciones',
       foreignKey: 'id_direccion',
       otherKey: 'id_persona',
       as: 'personas',

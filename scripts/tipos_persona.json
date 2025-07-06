@@ -1,0 +1,22 @@
+[
+    {
+        "descripcion": "Beneficiario",
+        "codigo": "B"
+    },
+    {
+        "descripcion": "Familiar",
+        "codigo": "F"
+    },
+    {
+        "descripcion": "Médico",
+        "codigo": "M"
+    },
+    {
+        "descripcion": "Dependiente",
+        "codigo": "D"
+    },
+    {
+        "descripcion": "Titular",
+        "codigo": "T"
+    }
+]

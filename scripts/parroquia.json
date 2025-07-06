@@ -1,0 +1,1277 @@
+[
+    {
+        "id_parroquia": 1,
+        "id_municipio":"1",
+        "nombre_parroquia":"Alto Orinoco La Esmeralda"
+    },
+    {
+        "id_parroquia": 2,
+        "id_municipio":"1",
+        "nombre_parroquia":"Huachamacare Acanaña"
+    },
+    {
+        "id_parroquia": 3,
+        "id_municipio":"1",
+        "nombre_parroquia":"Marawaka Toky Shamanaña"
+    },
+    {
+        "id_parroquia": 4,
+        "id_municipio":"1",
+        "nombre_parroquia":"Mavaka Mavaka"
+    },
+    {
+        "id_parroquia": 5,
+        "id_municipio":"1",
+        "nombre_parroquia":"Sierra Parima Parimabé"
+    },
+    {
+        "id_parroquia": 6,
+        "id_municipio":"2",
+        "nombre_parroquia":"Ucata Laja Lisa"
+    },
+    {
+        "id_parroquia": 7,
+        "id_municipio":"2",
+        "nombre_parroquia":"Yapacana Macuruco"
+    },
+    {
+        "id_parroquia": 8,
+        "id_municipio":"2",
+        "nombre_parroquia":"Caname Guarinuma"
+    },
+    {
+        "id_parroquia": 9,
+        "id_municipio":"3",
+        "nombre_parroquia":"Fernando Girón Tovar"
+    },
+    {
+        "id_parroquia": 10,
+        "id_municipio":"3",
+        "nombre_parroquia":"Luis Alberto Gómez"
+    },
+    {
+        "id_parroquia": 11,
+        "id_municipio":"3",
+        "nombre_parroquia":"Pahueña Limón de Parhueña"
+    },
+    {
+        "id_parroquia": 12,
+        "id_municipio":"3",
+        "nombre_parroquia":"Platanillal Platanillal"
+    },
+    {
+        "id_parroquia": 13,
+        "id_municipio":"4",
+        "nombre_parroquia":"Samariapo Samariapo"
+    },
+    {
+        "id_parroquia": 14,
+        "id_municipio":"4",
+        "nombre_parroquia":"Sipapo Pendare"
+    },
+    {
+        "id_parroquia": 15,
+        "id_municipio":"4",
+        "nombre_parroquia":"Munduapo Munduapo"
+    },
+    {
+        "id_parroquia": 16,
+        "id_municipio":"4",
+        "nombre_parroquia":"Guayapo San Pedro del Orinoco"
+    },
+    {
+        "id_parroquia": 17,
+        "id_municipio":"5",
+        "nombre_parroquia":"San Juan de Manapiare San Juan de Manapiare"
+    },
+    {
+        "id_parroquia": 18,
+        "id_municipio":"5",
+        "nombre_parroquia":"Alto Ventuari Coro Coro"
+    },
+    {
+        "id_parroquia": 19,
+        "id_municipio":"5",
+        "nombre_parroquia":"Medio Ventuari Manami"
+    },
+    {
+        "id_parroquia": 20,
+        "id_municipio":"5",
+        "nombre_parroquia":"Bajo Ventuari Morichal"
+    },
+    {
+        "id_parroquia": 21,
+        "id_municipio":"6",
+        "nombre_parroquia":"Maroa Maroa"
+    },
+    {
+        "id_parroquia": 22,
+        "id_municipio":"6",
+        "nombre_parroquia":"Victorino Pimichín"
+    },
+    {
+        "id_parroquia": 23,
+        "id_municipio":"6",
+        "nombre_parroquia":"Comunidad"
+    },
+    {
+        "id_parroquia": 24,
+        "id_municipio":"7",
+        "nombre_parroquia":"San Carlos de Río Negro San Carlos de Río Negro"
+    },
+    {
+        "id_parroquia": 25,
+        "id_municipio":"7",
+        "nombre_parroquia":"Solano Solano"
+    },
+    {
+        "id_parroquia": 26,
+        "id_municipio":"7",
+        "nombre_parroquia":"Casiquiare"
+    },
+    {
+        "id_parroquia": 27,
+        "id_municipio":"8",
+        "nombre_parroquia":"Anaco"
+    },
+    {
+        "id_parroquia": 28,
+        "id_municipio":"8",
+        "nombre_parroquia":"San Joaquín"
+    },
+    {
+        "id_parroquia": 29,
+        "id_municipio":"8",
+        "nombre_parroquia":"San José de Anaco"
+    },
+    {
+        "id_parroquia": 30,
+        "id_municipio":"9",
+        "nombre_parroquia":"Aragua de Barcelona"
+    },
+    {
+        "id_parroquia": 31,
+        "id_municipio":"9",
+        "nombre_parroquia":"Aragüita"
+    },
+    {
+        "id_parroquia": 32,
+        "id_municipio":"9",
+        "nombre_parroquia":"Cachipo"
+    },
+    {
+        "id_parroquia": 33,
+        "id_municipio":"9",
+        "nombre_parroquia":"Lezama"
+    },
+    {
+        "id_parroquia": 34,
+        "id_municipio":"10",
+        "nombre_parroquia":"Bergantín"
+    },
+    {
+        "id_parroquia": 35,
+        "id_municipio":"10",
+        "nombre_parroquia":"Caigua"
+    },
+    {
+        "id_parroquia": 36,
+        "id_municipio":"10",
+        "nombre_parroquia":"El Carmen"
+    },
+    {
+        "id_parroquia": 37,
+        "id_municipio":"10",
+        "nombre_parroquia":"Naricual"
+    },
+    {
+        "id_parroquia": 38,
+        "id_municipio":"10",
+        "nombre_parroquia":"San Cristóbal"
+    },
+    {
+        "id_parroquia": 39,
+        "id_municipio":"10",
+        "nombre_parroquia":"San Cristóbal"
+    },
+    {
+        "id_parroquia": 40,
+        "id_municipio":"11",
+        "nombre_parroquia":"Clarines"
+    },
+    {
+        "id_parroquia": 41,
+        "id_municipio":"11",
+        "nombre_parroquia":"Guanape"
+    },
+    {
+        "id_parroquia": 42,
+        "id_municipio":"11",
+        "nombre_parroquia":"Sabana de Uchire"
+    },
+    {
+        "id_parroquia": 43,
+        "id_municipio":"12",
+        "nombre_parroquia":"Valle de Guanape"
+    },
+    {
+        "id_parroquia": 44,
+        "id_municipio":"12",
+        "nombre_parroquia":"Santa Bárbara"
+    },
+    {
+        "id_parroquia": 45,
+        "id_municipio":"13",
+        "nombre_parroquia":"San Miguel"
+    },
+    {
+        "id_parroquia": 46,
+        "id_municipio":"13",
+        "nombre_parroquia":"Valle de Querecual"
+    },
+    {
+        "id_parroquia": 47,
+        "id_municipio":"14",
+        "nombre_parroquia":"Capital Diego Bautista Urbaneja"
+    },
+    {
+        "id_parroquia": 48,
+        "id_municipio":"14",
+        "nombre_parroquia":"Lechería"
+    },
+    {
+        "id_parroquia": 49,
+        "id_municipio":"14",
+        "nombre_parroquia":"El Morro"
+    },
+    {
+        "id_parroquia": 50,
+        "id_municipio":"15",
+        "nombre_parroquia":"Puerto Píritu"
+    },
+    {
+        "id_parroquia": 51,
+        "id_municipio":"15",
+        "nombre_parroquia":"Múcura"
+    },
+    {
+        "id_parroquia": 52,
+        "id_municipio":"15",
+        "nombre_parroquia":"Chaparro"
+    },
+    {
+        "id_parroquia": 53,
+        "id_municipio":"15",
+        "nombre_parroquia":"Guanape"
+    },
+    {
+        "id_parroquia": 54,
+        "id_municipio":"15",
+        "nombre_parroquia":"Libertad"
+    },
+    {
+        "id_parroquia": 55,
+        "id_municipio":"67",
+        "nombre_parroquia":"Cachamay"
+    },
+    {
+        "id_parroquia": 56,
+        "id_municipio":"67",
+        "nombre_parroquia":"Chirica"
+    },
+    {
+        "id_parroquia": 57,
+        "id_municipio":"67",
+        "nombre_parroquia":"Dalla Costa"
+    },
+    {
+        "id_parroquia": 58,
+        "id_municipio":"67",
+        "nombre_parroquia":"Once de Abril"
+    },
+    {
+        "id_parroquia": 59,
+        "id_municipio":"67",
+        "nombre_parroquia":"Pozo Verde"
+    },
+    {
+        "id_parroquia": 60,
+        "id_municipio":"67",
+        "nombre_parroquia":"Simón Bolívar"
+    },
+    {
+        "id_parroquia": 61,
+        "id_municipio":"67",
+        "nombre_parroquia":"Unare"
+    },
+    {
+        "id_parroquia": 62,
+        "id_municipio":"67",
+        "nombre_parroquia":"Universidad"
+    },
+    {
+        "id_parroquia": 63,
+        "id_municipio":"67",
+        "nombre_parroquia":"Vista al Sol"
+    },
+    {
+        "id_parroquia": 64,
+        "id_municipio":"67",
+        "nombre_parroquia":"San Félix"
+    },
+    {
+        "id_parroquia": 65,
+        "id_municipio":"67",
+        "nombre_parroquia":"Yocoima"
+    },
+    {
+        "id_parroquia": 66,
+        "id_municipio":"68",
+        "nombre_parroquia":"Cinco de Julio"
+    },
+    {
+        "id_parroquia": 67,
+        "id_municipio":"68",
+        "nombre_parroquia":"Siete de Octubre"
+    },
+    {
+        "id_parroquia": 68,
+        "id_municipio":"68",
+        "nombre_parroquia":"Guasipati"
+    },
+    {
+        "id_parroquia": 69,
+        "id_municipio":"68",
+        "nombre_parroquia":"Ikabarú"
+    },
+    {
+        "id_parroquia": 70,
+        "id_municipio":"70",
+        "nombre_parroquia":"Santa Elena de Uairén"
+    },
+    {
+        "id_parroquia": 71,
+        "id_municipio":"70",
+        "nombre_parroquia":"Gran Sabana"
+    },
+    {
+        "id_parroquia": 72,
+        "id_municipio":"70",
+        "nombre_parroquia":"Gran Sabana"
+    },
+    {
+        "id_parroquia": 73,
+        "id_municipio":"71",
+        "nombre_parroquia":"Catedral"
+    },
+    {
+        "id_parroquia": 74,
+        "id_municipio":"71",
+        "nombre_parroquia":"Vista Hermosa"
+    },
+    {
+        "id_parroquia": 75,
+        "id_municipio":"71",
+        "nombre_parroquia":"Marhuanta"
+    },
+    {
+        "id_parroquia": 76,
+        "id_municipio":"71",
+        "nombre_parroquia":"Panapana"
+    },
+    {
+        "id_parroquia": 77,
+        "id_municipio":"71",
+        "nombre_parroquia":"Orinoco"
+    },
+    {
+        "id_parroquia": 78,
+        "id_municipio":"71",
+        "nombre_parroquia":"Ciudad Bolívar"
+    },
+    {
+        "id_parroquia": 79,
+        "id_municipio":"71",
+        "nombre_parroquia":"Agua Salada"
+    },
+    {
+        "id_parroquia": 80,
+        "id_municipio":"72",
+        "nombre_parroquia":"Sabana de Piedra"
+    },
+    {
+        "id_parroquia": 81,
+        "id_municipio":"72",
+        "nombre_parroquia":"Santa Cruz de Piar"
+    },
+    {
+        "id_parroquia": 82,
+        "id_municipio":"72",
+        "nombre_parroquia":"El Palmar"
+    },
+    {
+        "id_parroquia": 83,
+        "id_municipio":"72",
+        "nombre_parroquia":"Andrés Bello"
+    },
+    {
+        "id_parroquia": 84,
+        "id_municipio":"74",
+        "nombre_parroquia":"Guasipati"
+    },
+    {
+        "id_parroquia": 85,
+        "id_municipio":"75",
+        "nombre_parroquia":"El Dorado"
+    },
+    {
+        "id_parroquia": 86,
+        "id_municipio":"75",
+        "nombre_parroquia":"San Isidro"
+    },
+    {
+        "id_parroquia": 87,
+        "id_municipio":"69",
+        "nombre_parroquia":"El Callao"
+    },
+    {
+        "id_parroquia": 88,
+        "id_municipio":"73",
+        "nombre_parroquia":"Padre Pedro Chien"
+    },
+    {
+        "id_parroquia": 89,
+        "id_municipio":"76",
+        "nombre_parroquia":"Sucre"
+    },
+    {
+        "id_parroquia": 90,
+        "id_municipio":"142",
+        "nombre_parroquia":"Vela de Coro"
+    },
+    {
+        "id_parroquia": 91,
+        "id_municipio":"146",
+        "nombre_parroquia":"Churuguara"
+    },
+    {
+        "id_parroquia": 92,
+        "id_municipio":"144",
+        "nombre_parroquia":"Pedregal"
+    },
+    {
+        "id_parroquia": 93,
+        "id_municipio":"143",
+        "nombre_parroquia":"Mene de Mauroa"
+    },
+    {
+        "id_parroquia": 94,
+        "id_municipio":"149",
+        "nombre_parroquia":"Mirimire"
+    },
+    {
+        "id_parroquia": 95,
+        "id_municipio":"145",
+        "nombre_parroquia":"Pueblo Nuevo"
+    },
+    {
+        "id_parroquia": 96,
+        "id_municipio":"136",
+        "nombre_parroquia":"Coro"
+    },
+    {
+        "id_parroquia": 97,
+        "id_municipio":"142",
+        "nombre_parroquia":"La Vela de Coro"
+    },
+    {
+        "id_parroquia": 98,
+        "id_municipio":"138",
+        "nombre_parroquia":"Puerto Cumarebo"
+    },
+    {
+        "id_parroquia": 99,
+        "id_municipio":"146",
+        "nombre_parroquia":"Churuguara"
+    },
+    {
+        "id_parroquia": 100,
+        "id_municipio":"144",
+        "nombre_parroquia":"Pedregal"
+    },
+    {
+        "id_parroquia": 101,
+        "id_municipio":"143",
+        "nombre_parroquia":"Mene de Mauroa"
+    },
+    {
+        "id_parroquia": 102,
+        "id_municipio":"149",
+        "nombre_parroquia":"Mirimire"
+    },
+    {
+        "id_parroquia": 103,
+        "id_municipio":"145",
+        "nombre_parroquia":"Pueblo Nuevo"
+    },
+    {
+        "id_parroquia": 104,
+        "id_municipio":"154",
+        "nombre_parroquia":"Tocópero"
+    },
+    {
+        "id_parroquia": 105,
+        "id_municipio":"146",
+        "nombre_parroquia":"Cabure"
+    },
+    {
+        "id_parroquia": 106,
+        "id_municipio":"147",
+        "nombre_parroquia":"Capadare"
+    },
+    {
+        "id_parroquia": 107,
+        "id_municipio":"143",
+        "nombre_parroquia":"Dabajuro"
+    },
+    {
+        "id_parroquia": 108,
+        "id_municipio":"148",
+        "nombre_parroquia":"Los Taques"
+    },
+    {
+        "id_parroquia": 109,
+        "id_municipio":"149",
+        "nombre_parroquia":"Mene Grande"
+    },
+    {
+        "id_parroquia": 110,
+        "id_municipio":"150",
+        "nombre_parroquia":"Palma Sola"
+    },
+    {
+        "id_parroquia": 111,
+        "id_municipio":"151",
+        "nombre_parroquia":"Píritu"
+    },
+    {
+        "id_parroquia": 112,
+        "id_municipio":"152",
+        "nombre_parroquia":"San Francisco"
+    },
+    {
+        "id_parroquia": 113,
+        "id_municipio":"153",
+        "nombre_parroquia":"Santa Cruz de Bucaral"
+    },
+    {
+        "id_parroquia": 114,
+        "id_municipio":"153",
+        "nombre_parroquia":"Sucre"
+    },
+    {
+        "id_parroquia": 115,
+        "id_municipio":"140",
+        "nombre_parroquia":"Cacique Manaure"
+    },
+    {
+        "id_parroquia": 116,
+        "id_municipio":"141",
+        "nombre_parroquia":"Capitán de Coro"
+    },
+    {
+        "id_parroquia": 117,
+        "id_municipio":"141",
+        "nombre_parroquia":"Punta Cardón"
+    },
+    {
+        "id_parroquia": 118,
+        "id_municipio":"141",
+        "nombre_parroquia":"Santa Ana"
+    },
+    {
+        "id_parroquia": 119,
+        "id_municipio":"141",
+        "nombre_parroquia":"Amuay"
+    },
+    {
+        "id_parroquia": 120,
+        "id_municipio":"141",
+        "nombre_parroquia":"Carirubana"
+    },
+    {
+        "id_parroquia": 121,
+        "id_municipio":"142",
+        "nombre_parroquia":"La Candelaria"
+    },
+    {
+        "id_parroquia": 122,
+        "id_municipio":"142",
+        "nombre_parroquia":"La Vela de Coro"
+    },
+    {
+        "id_parroquia": 123,
+        "id_municipio":"142",
+        "nombre_parroquia":"El Carrizal"
+    },
+    {
+        "id_parroquia": 124,
+        "id_municipio":"143",
+        "nombre_parroquia":"Dimas Salcedo"
+    },
+    {
+        "id_parroquia": 125,
+        "id_municipio":"143",
+        "nombre_parroquia":"Valmore Rodríguez"
+    },
+    {
+        "id_parroquia": 126,
+        "id_municipio":"144",
+        "nombre_parroquia":"Agua Larga"
+    },
+    {
+        "id_parroquia": 127,
+        "id_municipio":"144",
+        "nombre_parroquia":"Piedra Grande"
+    },
+    {
+        "id_parroquia": 128,
+        "id_municipio":"144",
+        "nombre_parroquia":"Santa Cruz de Tucupido"
+    },
+    {
+        "id_parroquia": 129,
+        "id_municipio":"145",
+        "nombre_parroquia":"Tocuyo de la Costa"
+    },
+    {
+        "id_parroquia": 130,
+        "id_municipio":"147",
+        "nombre_parroquia":"San Juan de los Cayos"
+    },
+    {
+        "id_parroquia": 131,
+        "id_municipio":"147",
+        "nombre_parroquia":"Supare"
+    },
+    {
+        "id_parroquia": 132,
+        "id_municipio":"147",
+        "nombre_parroquia":"La Guadalupe"
+    },
+    {
+        "id_parroquia": 133,
+        "id_municipio":"154",
+        "nombre_parroquia":"Boca de Aroa"
+    },
+    {
+        "id_parroquia": 134,
+        "id_municipio":"155",
+        "nombre_parroquia":"Yaracal"
+    },
+    {
+        "id_parroquia": 135,
+        "id_municipio":"157",
+        "nombre_parroquia":"Unión"
+    },
+    {
+        "id_parroquia": 136,
+        "id_municipio":"280",
+        "nombre_parroquia":"Cumaná"
+    },
+    {
+        "id_parroquia": 137,
+        "id_municipio":"280",
+        "nombre_parroquia":"Altagracia"
+    },
+    {
+        "id_parroquia": 138,
+        "id_municipio":"280",
+        "nombre_parroquia":"Ayacucho"
+    },
+    {
+        "id_parroquia": 139,
+        "id_municipio":"280",
+        "nombre_parroquia":"San Juan"
+    },
+    {
+        "id_parroquia": 140,
+        "id_municipio":"280",
+        "nombre_parroquia":"Santa Inés"
+    },
+    {
+        "id_parroquia": 141,
+        "id_municipio":"280",
+        "nombre_parroquia":"Santa Catalina"
+    },
+    {
+        "id_parroquia": 142,
+        "id_municipio":"280",
+        "nombre_parroquia":"Vidal"
+    },
+    {
+        "id_parroquia": 143,
+        "id_municipio":"280",
+        "nombre_parroquia":"San José Obrero"
+    },
+    {
+        "id_parroquia": 144,
+        "id_municipio":"280",
+        "nombre_parroquia":"Caigüire"
+    },
+    {
+        "id_parroquia": 145,
+        "id_municipio":"280",
+        "nombre_parroquia":"Canteras"
+    },
+    {
+        "id_parroquia": 146,
+        "id_municipio":"280",
+        "nombre_parroquia":"Quetepe"
+    },
+    {
+        "id_parroquia": 147,
+        "id_municipio":"274",
+        "nombre_parroquia":"Chacopata"
+    },
+    {
+        "id_parroquia": 148,
+        "id_municipio":"274",
+        "nombre_parroquia":"Araya"
+    },
+    {
+        "id_parroquia": 149,
+        "id_municipio":"274",
+        "nombre_parroquia":"Manicuare"
+    },
+    {
+        "id_parroquia": 150,
+        "id_municipio":"276",
+        "nombre_parroquia":"Mariño"
+    },
+    {
+        "id_parroquia": 151,
+        "id_municipio":"276",
+        "nombre_parroquia":"Ayacucho"
+    },
+    {
+        "id_parroquia": 152,
+        "id_municipio":"271",
+        "nombre_parroquia":"Río Caribe"
+    },
+    {
+        "id_parroquia": 153,
+        "id_municipio":"271",
+        "nombre_parroquia":"El Morro de Puerto Santo"
+    },
+    {
+        "id_parroquia": 154,
+        "id_municipio":"271",
+        "nombre_parroquia":"Puerto Santo"
+    },
+    {
+        "id_parroquia": 155,
+        "id_municipio":"271",
+        "nombre_parroquia":"Río Caribe"
+    },
+    {
+        "id_parroquia": 156,
+        "id_municipio":"279",
+        "nombre_parroquia":"Tunapuy"
+    },
+    {
+        "id_parroquia": 157,
+        "id_municipio":"279",
+        "nombre_parroquia":"Campo Elías"
+    },
+    {
+        "id_parroquia": 158,
+        "id_municipio":"278",
+        "nombre_parroquia":"Río Casanay"
+    },
+    {
+        "id_parroquia": 159,
+        "id_municipio":"277",
+        "nombre_parroquia":"San Antonio del Golfo"
+    },
+    {
+        "id_parroquia": 160,
+        "id_municipio":"281",
+        "nombre_parroquia":"Guiria"
+    },
+    {
+        "id_parroquia": 161,
+        "id_municipio":"281",
+        "nombre_parroquia":"Irapa"
+    },
+    {
+        "id_parroquia": 162,
+        "id_municipio":"281",
+        "nombre_parroquia":"Cristóbal Colón"
+    },
+    {
+        "id_parroquia": 163,
+        "id_municipio":"281",
+        "nombre_parroquia":"Punta de Piedras"
+    },
+    {
+        "id_parroquia": 164,
+        "id_municipio":"270",
+        "nombre_parroquia":"El Pilar"
+    },
+    {
+        "id_parroquia": 165,
+        "id_municipio":"270",
+        "nombre_parroquia":"El Pilar"
+    },
+    {
+        "id_parroquia": 166,
+        "id_municipio":"270",
+        "nombre_parroquia":"Lic. Luis Daniel Beauperthuy"
+    },
+    {
+        "id_parroquia": 167,
+        "id_municipio":"270",
+        "nombre_parroquia":"San Francisco de Macaira"
+    },
+    {
+        "id_parroquia": 168,
+        "id_municipio":"270",
+        "nombre_parroquia":"San Juan de Unare"
+    },
+    {
+        "id_parroquia": 169,
+        "id_municipio":"270",
+        "nombre_parroquia":"Santa Catalina"
+    },
+    {
+        "id_parroquia": 170,
+        "id_municipio":"270",
+        "nombre_parroquia":"Santa María"
+    },
+    {
+        "id_parroquia": 171,
+        "id_municipio":"270",
+        "nombre_parroquia":"Villa Frontado"
+    },
+    {
+        "id_parroquia": 172,
+        "id_municipio":"272",
+        "nombre_parroquia":"Arapa"
+    },
+    {
+        "id_parroquia": 173,
+        "id_municipio":"272",
+        "nombre_parroquia":"San Lorenzo"
+    },
+    {
+        "id_parroquia": 174,
+        "id_municipio":"278",
+        "nombre_parroquia":"Casanay"
+    },
+    {
+        "id_parroquia": 175,
+        "id_municipio":"278",
+        "nombre_parroquia":"San José de Aerocuar"
+    },
+    {
+        "id_parroquia": 176,
+        "id_municipio":"278",
+        "nombre_parroquia":"San Agustín"
+    },
+    {
+        "id_parroquia": 177,
+        "id_municipio":"271",
+        "nombre_parroquia":"Río Caribe"
+    },
+    {
+        "id_parroquia": 178,
+        "id_municipio":"271",
+        "nombre_parroquia":"Capitán de Navío Manuel Ponce Díaz"
+    },
+    {
+        "id_parroquia": 179,
+        "id_municipio":"271",
+        "nombre_parroquia":"General Francisco Montes"
+    },
+    {
+        "id_parroquia": 180,
+        "id_municipio":"281",
+        "nombre_parroquia":"Güiria"
+    },
+    {
+        "id_parroquia": 181,
+        "id_municipio":"281",
+        "nombre_parroquia":"Boca de Dragón"
+    },
+    {
+        "id_parroquia": 182,
+        "id_municipio":"281",
+        "nombre_parroquia":"Puerto Real"
+    },
+    {
+        "id_parroquia": 183,
+        "id_municipio":"282",
+        "nombre_parroquia":"Andrés Bello"
+    },
+    {
+        "id_parroquia": 184,
+        "id_municipio":"283",
+        "nombre_parroquia":"Antonio José de Sucre"
+    },
+    {
+        "id_parroquia": 185,
+        "id_municipio":"285",
+        "nombre_parroquia":"Bruzual"
+    },
+    {
+        "id_parroquia": 186,
+        "id_municipio":"293",
+        "nombre_parroquia":"Chivacoa"
+    },
+    {
+        "id_parroquia": 187,
+        "id_municipio":"287",
+        "nombre_parroquia":"Independencia"
+    },
+    {
+        "id_parroquia": 188,
+        "id_municipio":"286",
+        "nombre_parroquia":"Cocorote"
+    },
+    {
+        "id_parroquia": 189,
+        "id_municipio":"291",
+        "nombre_parroquia":"San Felipe"
+    },
+    {
+        "id_parroquia": 190,
+        "id_municipio":"291",
+        "nombre_parroquia":"Albarico"
+    },
+    {
+        "id_parroquia": 191,
+        "id_municipio":"286",
+        "nombre_parroquia":"San Jerónimo de Cocorote"
+    },
+    {
+        "id_parroquia": 192,
+        "id_municipio":"293",
+        "nombre_parroquia":"Chivacoa"
+    },
+    {
+        "id_parroquia": 193,
+        "id_municipio":"292",
+        "nombre_parroquia":"Yaritagua"
+    },
+    {
+        "id_parroquia": 194,
+        "id_municipio":"288",
+        "nombre_parroquia":"Nirgua"
+    },
+    {
+        "id_parroquia": 195,
+        "id_municipio":"295",
+        "nombre_parroquia":"Salom"
+    },
+    {
+        "id_parroquia": 196,
+        "id_municipio":"292",
+        "nombre_parroquia":"Sucre"
+    },
+    {
+        "id_parroquia": 197,
+        "id_municipio":"284",
+        "nombre_parroquia":"Aroa"
+    },
+    {
+        "id_parroquia": 198,
+        "id_municipio":"290",
+        "nombre_parroquia":"Yumare"
+    },
+    {
+        "id_parroquia": 199,
+        "id_municipio":"289",
+        "nombre_parroquia":"San Pablo"
+    },
+    {
+        "id_parroquia": 200,
+        "id_municipio":"297",
+        "nombre_parroquia":"Guama"
+    },
+    {
+        "id_parroquia": 201,
+        "id_municipio":"297",
+        "nombre_parroquia":"Cuara"
+    },
+    {
+        "id_parroquia": 202,
+        "id_municipio":"294",
+        "nombre_parroquia":"Sabana de Parra"
+    },
+    {
+        "id_parroquia": 203,
+        "id_municipio":"298",
+        "nombre_parroquia":"Capital Vargas"
+    },
+    {
+        "id_parroquia": 204,
+        "id_municipio":"298",
+        "nombre_parroquia":"Caraballeda"
+    },
+    {
+        "id_parroquia": 205,
+        "id_municipio":"298",
+        "nombre_parroquia":"Carayaca"
+    },
+    {
+        "id_parroquia": 206,
+        "id_municipio":"298",
+        "nombre_parroquia":"Catia La Mar"
+    },
+    {
+        "id_parroquia": 207,
+        "id_municipio":"298",
+        "nombre_parroquia":"La Guaira"
+    },
+    {
+        "id_parroquia": 208,
+        "id_municipio":"298",
+        "nombre_parroquia":"Macuto"
+    },
+    {
+        "id_parroquia": 209,
+        "id_municipio":"298",
+        "nombre_parroquia":"Maiquetía"
+    },
+    {
+        "id_parroquia": 210,
+        "id_municipio":"298",
+        "nombre_parroquia":"Naiguatá"
+    },
+    {
+        "id_parroquia": 211,
+        "id_municipio":"298",
+        "nombre_parroquia":"El Junko"
+    },
+    {
+        "id_parroquia": 212,
+        "id_municipio":"218",
+        "nombre_parroquia":"El Hatillo"
+    },
+    {
+        "id_parroquia": 213,
+        "id_municipio":"219",
+        "nombre_parroquia":"El Recreo"
+    },
+    {
+        "id_parroquia": 214,
+        "id_municipio":"25",
+        "nombre_parroquia":"Altagracia"
+    },
+    {
+        "id_parroquia": 215,
+        "id_municipio":"25",
+        "nombre_parroquia":"Antímano"
+    },
+    {
+        "id_parroquia": 216,
+        "id_municipio":"25",
+        "nombre_parroquia":"Caricuao"
+    },
+    {
+        "id_parroquia": 217,
+        "id_municipio":"25",
+        "nombre_parroquia":"Catedral"
+    },
+    {
+        "id_parroquia": 218,
+        "id_municipio":"25",
+        "nombre_parroquia":"Coche"
+    },
+    {
+        "id_parroquia": 219,
+        "id_municipio":"25",
+        "nombre_parroquia":"El Junquito"
+    },
+    {
+        "id_parroquia": 220,
+        "id_municipio":"25",
+        "nombre_parroquia":"El Paraíso"
+    },
+    {
+        "id_parroquia": 221,
+        "id_municipio":"25",
+        "nombre_parroquia":"El Recreo"
+    },
+    {
+        "id_parroquia": 222,
+        "id_municipio":"25",
+        "nombre_parroquia":"El Valle"
+    },
+    {
+        "id_parroquia": 223,
+        "id_municipio":"25",
+        "nombre_parroquia":"La Candelaria"
+    },
+    {
+        "id_parroquia": 224,
+        "id_municipio":"25",
+        "nombre_parroquia":"La Pastora"
+    },
+    {
+        "id_parroquia": 225,
+        "id_municipio":"25",
+        "nombre_parroquia":"La Vega"
+    },
+    {
+        "id_parroquia": 226,
+        "id_municipio":"25",
+        "nombre_parroquia":"Macarao"
+    },
+    {
+        "id_parroquia": 227,
+        "id_municipio":"25",
+        "nombre_parroquia":"San Agustín"
+    },
+    {
+        "id_parroquia": 228,
+        "id_municipio":"25",
+        "nombre_parroquia":"San Bernardino"
+    },
+    {
+        "id_parroquia": 229,
+        "id_municipio":"25",
+        "nombre_parroquia":"San José"
+    },
+    {
+        "id_parroquia": 230,
+        "id_municipio":"25",
+        "nombre_parroquia":"San Juan"
+    },
+    {
+        "id_parroquia": 231,
+        "id_municipio":"25",
+        "nombre_parroquia":"San Pedro"
+    },
+    {
+        "id_parroquia": 232,
+        "id_municipio":"25",
+        "nombre_parroquia":"Santa Rosalía"
+    },
+    {
+        "id_parroquia": 233,
+        "id_municipio":"25",
+        "nombre_parroquia":"Santa Teresa"
+    },
+    {
+        "id_parroquia": 234,
+        "id_municipio":"25",
+        "nombre_parroquia":"Sucre (Catia)"
+    },
+    {
+        "id_parroquia": 235,
+        "id_municipio":"28",
+        "nombre_parroquia":"Altagracia"
+    },
+    {
+        "id_parroquia": 236,
+        "id_municipio":"28",
+        "nombre_parroquia":"Antímano"
+    },
+    {
+        "id_parroquia": 237,
+        "id_municipio":"28",
+        "nombre_parroquia":"Caricuao"
+    },
+    {
+        "id_parroquia": 238,
+        "id_municipio":"28",
+        "nombre_parroquia":"Catedral"
+    },
+    {
+        "id_parroquia": 239,
+        "id_municipio":"28",
+        "nombre_parroquia":"Coche"
+    },
+    {
+        "id_parroquia": 240,
+        "id_municipio":"28",
+        "nombre_parroquia":"El Junquito"
+    },
+    {
+        "id_parroquia": 241,
+        "id_municipio":"28",
+        "nombre_parroquia":"El Paraíso"
+    },
+    {
+        "id_parroquia": 242,
+        "id_municipio":"28",
+        "nombre_parroquia":"El Recreo"
+    },
+    {
+        "id_parroquia": 243,
+        "id_municipio":"28",
+        "nombre_parroquia":"El Valle"
+    },
+    {
+        "id_parroquia": 244,
+        "id_municipio":"28",
+        "nombre_parroquia":"La Candelaria"
+    },
+    {
+        "id_parroquia": 245,
+        "id_municipio":"28",
+        "nombre_parroquia":"La Pastora"
+    },
+    {
+        "id_parroquia": 246,
+        "id_municipio":"28",
+        "nombre_parroquia":"La Vega"
+    },
+    {
+        "id_parroquia": 247,
+        "id_municipio":"28",
+        "nombre_parroquia":"Macarao"
+    },
+    {
+        "id_parroquia": 248,
+        "id_municipio":"28",
+        "nombre_parroquia":"San Agustín"
+    },
+    {
+        "id_parroquia": 249,
+        "id_municipio":"28",
+        "nombre_parroquia":"San Bernardino"
+    },
+    {
+        "id_parroquia": 250,
+        "id_municipio":"28",
+        "nombre_parroquia":"San José"
+    },
+    {
+        "id_parroquia": 251,
+        "id_municipio":"28",
+        "nombre_parroquia":"San Juan"
+    },
+    {
+        "id_parroquia": 252,
+        "id_municipio":"28",
+        "nombre_parroquia":"San Pedro"
+    },
+    {
+        "id_parroquia": 253,
+        "id_municipio":"28",
+        "nombre_parroquia":"Santa Rosalía"
+    },
+    {
+        "id_parroquia": 254,
+        "id_municipio":"28",
+        "nombre_parroquia":"Santa Teresa"
+    },
+    {
+        "id_parroquia": 255,
+        "id_municipio":"28",
+        "nombre_parroquia":"Sucre (Catia)"
+    }
+]
