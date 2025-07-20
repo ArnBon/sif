@@ -36,7 +36,7 @@ const crearTelefono = async (req, res = response) => {
 
 
 //vincular ese telefono creado a una persona puede ser un grupo familiar
-const vincularTelefonoPersona = async (req, res) => {
+const vincularTelefonoPersona = async (req, res = response) => {
     try {
         const { personaId } = req.params;
         const { telefonoId, tipo = 'principal' } = req.body;

@@ -95,7 +95,7 @@ const personaSchema = new Schema({
     }],
     telefonos:[{
         telefono:{
-            type: Schema,Types.ObjectId,
+            type: Schema.Types.ObjectId,
             ref: 'Telefono'
         }
     }],

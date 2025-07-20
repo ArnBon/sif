@@ -4,5 +4,5 @@ const { crearDireccion, vincularDireccionPersona } = require('../controllers/dir
 
 const router = Router();
 router.post('/', crearDireccion);
-router.put('/:id', vincularDireccionPersona);
+router.post('/personas/:personaId/direcciones', vincularDireccionPersona);
 module.exports = router;
