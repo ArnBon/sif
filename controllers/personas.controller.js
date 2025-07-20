@@ -144,7 +144,6 @@ const { parsearFechaNacimientoCrear, parsearFechaNacimientoActualizar, formatear
     }
     }
 
-
 module.exports = {
     getPersona,
     getPersonaId,

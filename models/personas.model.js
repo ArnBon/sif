@@ -87,6 +87,20 @@ const personaSchema = new Schema({
         createdAt: 'fecha_creacion',
         updatedAt: 'fecha_actualizacion' 
     },
+    direcciones:[{
+        direccion:{
+            type: Schema.Types.ObjectId,
+            ref: 'Direccion'
+        },
+    }],
+    telefonos:[{
+        telefono:{
+            type: Schema,Types.ObjectId,
+            ref: 'Telefono'
+        }
+    }],
+
+
     versionKey: false
 });
 

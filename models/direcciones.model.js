@@ -22,6 +22,12 @@ const direccionSchema = Schema({
         type: String
     },
 
+    tipo: {
+    type: String,
+    enum: ['casa', 'apartamento', 'oficina', 'otro'],
+    default: 'casa'
+  },
+
     id_estado: {
         type: Schema.Types.ObjectId,
         ref: Estado,

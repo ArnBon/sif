@@ -1,12 +1,8 @@
 const { Router } = require('express');
-const { getDireccion,getDireccionId,crearDireccion,actualizarDireccion,eliminarDirecion } = require('../controllers/direccion.controller');
+const { crearDireccion, vincularDireccionPersona } = require('../controllers/direccion.controller');
 
 
 const router = Router();
-router.get('/', getDireccion);
-router.get('/:id',getDireccionId);
 router.post('/', crearDireccion);
-router.put('/:id', actualizarDireccion);
-router.delete('/:id', eliminarDirecion);
-
+router.put('/:id', vincularDireccionPersona);
 module.exports = router;
