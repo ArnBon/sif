@@ -24,10 +24,36 @@ const getdatosLaborales = async (req, res = response) => {
 
 
 const getdatosLaboralesId = async (req, res = response) => {
-    res.json({
+    const dlid = req.params.id;
+    try {
+        const datoLaboralDB = await DatosLaborales.findById(dlid)
+            .populate('id_persona', 'primer_nombre segundo_nombre primer_apellido segundo_apellido')
+            
+
+        if (!datoLaboralDB) {
+            return res.status(404).json({
+                ok: false,
+                msg: 'No existen datos laborales por ese ID.'
+            });
+        }
+
+        res.json({
         ok:true,
+        datoLaboralDB, // Devuelve el objeto encontrado
         msg: 'Obtener datos laborales por Id'
+
     });
+
+        
+    } catch (error) {
+        console.error(error);
+        res.status(500).json({
+            ok: false,
+            msg: 'Error al obtener los datos laborales por ID.'
+        });
+        
+    }
+    
 }
 
 

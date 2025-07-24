@@ -1,5 +1,8 @@
 const { response } = require('express');
 const Persona = require('../models/personas.model');
+const Genero = require('../models/genero.model');
+const TipoPersona = require('../models/tipo_persona.model');
+const EstadoCivil = require('../models/estado_civil.model');
 const { parsearFechaNacimientoCrear, parsearFechaNacimientoActualizar, formatearFechaRespuesta, validarFecha } = require('../middlewares/validarfechas');
 
 
@@ -29,7 +32,7 @@ const { parsearFechaNacimientoCrear, parsearFechaNacimientoActualizar, formatear
             // Encuentra la persona por ID
             const personaDB = await Persona.findById(pid)
             .populate('id_genero', 'descripcion codigo')
-            .populate('id_estado_civil', 'descripcion codigo')
+            .populate('id_edo_civil', 'descripcion codigo')
             .populate('id_tipo_persona', 'descripcion codigo');
     
             if (!personaDB) {
@@ -40,7 +43,7 @@ const { parsearFechaNacimientoCrear, parsearFechaNacimientoActualizar, formatear
             }
             res.json({
                 ok: true,
-                persona: personaResponse
+                personaDB
             });
             
         } catch (error) {
