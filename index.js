@@ -24,6 +24,15 @@ app.use('/api/direccion', require('./routes/direcciones.routes'));
 app.use('/api/telefono', require('./routes/telefono.routes'));
 app.use('/api/datoslaborales', require('./routes/datos_laborales.routes'));
 
+// modulo declaracion de salud 
+app.use('/api/planes', require('./routes/planes.routes'));
+app.use('/api/coberturas', require('./routes/coberturas.routes'));
+app.use('/api/servicioscontratados', require('./routes/servicios_contratados.routes'));
+app.use('/api/solicitudcobertura', require('./routes/solicitud_cobertura.routes'));
+app.use('/api/personasplanes', require('./routes/personas_planes.routes'));
+app.use('/api/tiposeguro', require('./routes/tipos_seguro.routes'));
+//fin modulo declaracion de salud
+
 
 // 5.1 Seguridad de la aplicacion
 app.use('/api/login', require('./routes/auth.routes'));
