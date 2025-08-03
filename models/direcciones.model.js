@@ -36,7 +36,7 @@ const direccionSchema = new Schema({
   id_ciudad: {
     type: Schema.Types.ObjectId,
     ref: 'Ciudad',
-    required: [true, 'La ciudad es obligatoria']
+    //required: [true, 'La ciudad es obligatoria']
   },
   id_municipio: {
     type: Schema.Types.ObjectId,
