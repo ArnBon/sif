@@ -1,4 +1,5 @@
 const { response } = require('express');
+const Plan = require('../models/planes.model');
 
 const getPlanes = (req, res = response) => {
   res.json({

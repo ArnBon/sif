@@ -6,9 +6,17 @@ const servicioContratadoSchema = Schema({
 
     nombre_servicio: {
         type: String,
-        required: true
+        required: true,
+        maxlength: 100,
+        unique: true
     }
 
 });
 
-module.exports = model(servicioContratadoSchema, servicioContratadoSchema);
+servicioContratadoSchema.method('toJSON', function(){
+    const{ __v, _id, ...object} = this.toObject();
+    object.id_servicio = _id;
+    return object;
+});
+
+module.exports = model('ServicioContratado', servicioContratadoSchema);

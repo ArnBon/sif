@@ -1,6 +1,6 @@
 const { Schema, model } = require('mongoose');
 
-const personasPlanesSchema = Schema({
+const personaPlaneSchema = Schema({
 
     id_persona: {
         type: Schema.Types.ObjectId,
@@ -32,5 +32,14 @@ const personasPlanesSchema = Schema({
 
 });
 
+// Índice compuesto para evitar duplicados
+personaPlanSchema.index({ id_persona: 1, id_plan: 1 }, { unique: true });
 
-module.exports = model(personasPlanesSchema, personasPlanesSchema);
+personaPlanSchema.method('toJSON', function(){
+    const{ __v, _id, ...object} = this.toObject();
+    object.id_persona_plan = _id;
+    return object;
+});
+
+
+module.exports = model('PersonasPlanes', personaPlaneSchema);

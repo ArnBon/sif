@@ -1,47 +1,48 @@
 const { response } = require('express');
+const ServicioContratado = require('../models/servicio_contratado.model');
 
 
-const getCoberturas = (req, res = response) => {
+const getServicios = (req, res = response) => {
   res.json({
     ok: true,
-    msg: 'getCoberturas',
+    msg: 'getServicios',
   });
 };
 
-const getCoberturaId = (req, res = response) => {
+const getServicioById = (req, res = response) => {
   res.json({
     ok: true,
-    msg: 'getCoberturaId',
+    msg: 'getServicioById',
   });
 };
 
 
 
-crearCobertura = (req, res = response) => {
+crearServicio = (req, res = response) => {
   res.json({
     ok: true,
-    msg: 'crearCobertura',
+    msg: 'crearServicio',
   });
 };
 
-actualizarCobertura = (req, res = response) => {
+actualizarServicio = (req, res = response) => {
   res.json({
     ok: true,
-    msg: 'actualizarCobertura',
+    msg: 'actualizarServicio',
   });
 };
 
-const eliminarCobertura = (req, res = response) => {
+const eliminarServicio = (req, res = response) => {
   res.json({
     ok: true,
-    msg: 'eliminarCobertura',
+    msg: 'eliminarServicio',
   });
 };
 
 module.exports = {
-  getCoberturas,
-  getCoberturaId,
-  crearCobertura,
-  actualizarCobertura,
-  eliminarCobertura,
+  getServicios,
+  getServicioById,
+  crearServicio,
+  actualizarServicio,
+  eliminarServicio
 };

@@ -1,17 +1,25 @@
 const { Schema, model } = require('mongoose');
 
-const planesSchema = Schema({
+const planSchema = Schema({
 
     nombre_plan: {
         type: String,
-        required: true
+        required: true,
+        maxlength: 100,
+        unique: true
     },
 
     suma_asegurada: {
         type: Number,
-        required: true
+        required: true,
+        min: 0
     } 
 
 });
+planSchema.method('toJSON', function(){
+    const{ __v, _id, ...object} = this.toObject();
+    object.id_plan = _id;
+    return object;
+});
 
-module.exports = model('Planes', planesSchema);
+module.exports = model('Plan', planSchema);

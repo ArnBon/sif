@@ -1,12 +1,12 @@
 const { Router } = require('express');
-const { getCoberturas, getCoberturaId, crearCobertura, actualizarCobertura, eliminarCobertura } = require('../controllers/coberturas.controller');
+const { getServicios, getServicioById, crearServicio, actualizarServicio, eliminarServicio } = require('../controllers/servicios_contratados.controller');
 
 const router = Router();
 
-router.get('/', getCoberturas);
-router.get('/:id', getCoberturaId);
-router.post('/',crearCobertura);
-router.put('/:id', actualizarCobertura);
-router.delete('/:id', eliminarCobertura);
+router.get('/', getServicios);
+router.get('/:id', getServicioById);
+router.post('/',crearServicio);
+router.put('/:id', actualizarServicio);
+router.delete('/:id', eliminarServicio);
 
 module.exports = router;

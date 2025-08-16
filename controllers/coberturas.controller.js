@@ -1,5 +1,5 @@
 const { response } = require('express');
-
+const Cobertura = require('../models/cobertura.model');
 
 const getCoberturas = (req, res = response) => {
   res.json({

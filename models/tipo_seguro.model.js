@@ -19,6 +19,11 @@ const tipoSeguroSchema = Schema({
     }
 
 });
+tipoSeguroSchema.method('toJSON', function(){
+    const{ __v, _id, ...object} = this.toObject();
+    object.id_tipo_seguro = _id;
+    return object;
+});
 
 
-module.exports = model(tipoSeguroSchema, tipoSeguroSchema);
+module.exports = model('TipoSeguro', tipoSeguroSchema);

@@ -4,16 +4,22 @@ const coberturaSchema = Schema({
     
     nombre: {
         type: String,
-        required: true
+        required: true,
+        maxlength: 100,
+        unique: true
     },
-
     descripcion: {
         type: String,
-        required: true
+        required: true,
+        maxlength: 500
+    },
+    requiere_servicios: {
+        type: Boolean,
+        default: false
     }
 })
 
 
 
 
-module.exports = model(Cobertura, coberturaSchema);
+module.exports = model('Cobertura', coberturaSchema);

@@ -1,4 +1,6 @@
 const { response } = require('express');
+const SolicitudCobertura = require('../models/solicitud_cobertura.model');
+
 
 const crearSolicitudCobertura = (req, res = response) => {
   res.json({
