@@ -2,47 +2,123 @@ const { response } = require('express');
 const ServicioContratado = require('../models/servicio_contratado.model');
 
 
-const getServicios = (req, res = response) => {
+const getServiciosContratado = async (req, res = response) => {
+  try { 
+    //obtener todos los servicios contratados
+    const serviciosC = await ServicioContratado.find({}, 'id_servicio nombre_servicio');
   res.json({
-    ok: true,
-    msg: 'getServicios',
+    ok: true,    
+    servicios: serviciosC
   });
+  } catch (error) {
+    console.error(error);
+    res.status(500).json({
+      ok: false,
+      msg: 'Error en el servidor',
+    });
+  }  
 };
 
-const getServicioById = (req, res = response) => {
+
+const getServicioContratadoById = async (req, res = response) => {
+  try {
+    const id_servicio = req.params.id;
+    const servicioC = await ServicioContratado.findById(id_servicio);
+
+    if (!servicioC) {
+      return res.status(404).json({
+        ok: false,
+        msg: 'Servicio no encontrado',
+      });
+    }
   res.json({
     ok: true,
-    msg: 'getServicioById',
-  });
+    servicioC
+  });  
+  } catch (error) {
+    console.error(error);
+    res.status(500).json({
+      ok: false,
+      msg: 'Error en el servidor',
+    });
+  }
+  
 };
 
 
-
-crearServicio = (req, res = response) => {
+crearServicioContratado = async (req, res = response) => {
+  const servicio_contratado = new ServicioContratado(req.body); //crear el objeto del servicio contratado
+  try {
+    await servicio_contratado.save(); //guardar en la base de datos
   res.json({
     ok: true,
-    msg: 'crearServicio',
+    msg: 'Servicio contratado creado exitosamente',
   });
+  } catch (error) {
+    console.error(error);
+    res.status(500).json({
+      ok: false,
+      msg: 'Error en el servidor',
+    });
+  }
+  
 };
 
-actualizarServicio = (req, res = response) => {
+
+actualizarServicioContratado = async (req, res = response) => {
+  const scid = req.params.id;
+  try {
+    const servicioCDB = await ServicioContratado.findById(scid);
+    if (!servicioCDB) {
+      return res.status(404).json({
+        ok: false,
+        msg: 'Servicio no encontrado',
+      });
+    }
+    // Actualizar los campos del servicio contratado
+
+    const edicionServCont = await ServicioContratado.findByIdAndUpdate(scid, req.body, { new: true });
   res.json({
     ok: true,
     msg: 'actualizarServicio',
   });
+  } catch (error) {
+    console.error(error);
+    res.status(500).json({
+      ok: false,
+      msg: 'Error en el servidor',
+    });
+  }
+  
 };
 
-const eliminarServicio = (req, res = response) => {
+
+const eliminarServicioContratado = async (req, res = response) => {
+  const scid = req.params.id;
+  try {
+    const servicioCDB = await ServicioContratado.findById(scid);
+    if (!servicioCDB) {
+      return res.status(404).json({
+        ok: false,
+        msg: 'Servicio no encontrado',
+      });
+    }
+    // Eliminar el servicio contratado
+    await ServicioContratado.findByIdAndDelete(scid);
   res.json({
     ok: true,
-    msg: 'eliminarServicio',
+    msg: 'Servicio contratado eliminado exitosamente',
   });
+  } catch (error) {
+    
+  }
+  
 };
 
 module.exports = {
-  getServicios,
-  getServicioById,
-  crearServicio,
-  actualizarServicio,
-  eliminarServicio
+  getServiciosContratado,
+  getServicioContratadoById,
+  crearServicioContratado,
+  actualizarServicioContratado,
+  eliminarServicioContratado
 };
