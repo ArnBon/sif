@@ -17,7 +17,13 @@ const coberturaSchema = Schema({
         type: Boolean,
         default: false
     }
-})
+});
+
+coberturaSchema.method('toJSON', function(){
+    const{ __v, _id, ...object} = this.toObject();
+    object.id_cobertura = _id;
+    return object;
+});
 
 
 
