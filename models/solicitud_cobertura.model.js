@@ -1,4 +1,5 @@
 const { Schema, model} = require('mongoose');
+const { validate } = require('./personas.model');
 
 
 const solicitudCoberturaSchema = Schema({
@@ -27,7 +28,12 @@ const solicitudCoberturaSchema = Schema({
 
     fecha_seleccion: {
         type: Date,
-        default: Date.now
+        validate: {
+            validator: function(value) {
+                return value < new Date();
+            },
+            message: 'La fecha de seleccion debe ser en el pasado'
+        }        
     }
 
 });
