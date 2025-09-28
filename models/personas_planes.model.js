@@ -1,6 +1,6 @@
 const { Schema, model } = require('mongoose');
 
-const personaPlaneSchema = Schema({
+const personaPlanSchema = Schema({
 
     id_persona: {
         type: Schema.Types.ObjectId,
@@ -42,4 +42,4 @@ personaPlanSchema.method('toJSON', function(){
 });
 
 
-module.exports = model('PersonasPlanes', personaPlaneSchema);
+module.exports = model('PersonasPlanes', personaPlanSchema);

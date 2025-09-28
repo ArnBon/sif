@@ -1,13 +1,13 @@
 const { Router } = require('express');
-const { crearPlan, actualizarPlan, eliminarPlan } = require('../controllers/planes.controller');
+const { crearPersonaPlan, actualizarPersonaPlan, eliminarPersonaPlan } = require('../controllers/personas_planes.controller');
 
 const router = Router();
 
 
-router.post('/', crearPlan);
+router.post('/', crearPersonaPlan);
 
-router.put('/:id', actualizarPlan);
+router.put('/:id', actualizarPersonaPlan);
 
-router.delete('/:id', eliminarPlan);
+router.delete('/:id', eliminarPersonaPlan);
 
 module.exports = router;
