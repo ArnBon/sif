@@ -12,7 +12,6 @@ const dependenciaSchema = new Schema({
         ref: 'Persona',
         required: true
     }
-
 });
 
 

@@ -1,13 +1,10 @@
 const { Router } = require('express');
-const { getSolicitudesSeguro, getSolicitudSeguroId, crearSolicitudSeguro, actualizarSolicitudSeguro, eliminarSolicitudSeguro } = require('../controllers/solicitudesSeguro.controller');
+const { getDependientes, crearDependientes, eliminarDependientes } = require('../controllers/dependientes.controller');
 
 const router = Router();
 
-router.get('/', getSolicitudesSeguro);
-router.get('/:id', getSolicitudSeguroId);
-router.post('/', crearSolicitudSeguro);
-router.put('/:id', actualizarSolicitudSeguro);
-router.delete('/:id', eliminarSolicitudSeguro); 
-
+router.get('/', getDependientes);
+router.post('/', crearDependientes);
+router.delete('/:id', eliminarDependientes);
 
 module.exports = router;

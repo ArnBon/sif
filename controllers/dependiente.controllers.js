@@ -1,44 +1,89 @@
 const { response } = require('express'); 
+const Dependiente = require('../models/dependiente.model');
+const Persona = require('../models/personas.model');
 
-const getDependientes = (req, res = response) => {
-    res.json({
-        ok: true,
-        msg: 'getDependientes'
-    });
+const getDependientes = async (req, res = response) => {
+    try {
+        const dependientes = await Dependiente.find({}, 'id_dependiente id_persona');        
+        res.json({
+            ok: true,            
+            dependientes
+        });
+    } catch (error) {
+        console.error(error);
+        res.status(500).json({
+            ok: false,
+            msg: 'Error en getDependientes'
+        });
+    }
+    
 };
 
-const getDependienteId = (req, res = response) => {
-    res.json({
-        ok: true,
-        msg: 'getDependienteId'
-    });
+const crearDependiente = async (req, res = response) => {
+    const { id_persona } = req.body;
+
+    try {
+        const persona = await Persona.findById(id_persona);
+        if (!persona) {
+            return res.status(404).json({
+                ok: false,
+                msg: 'Persona no encontrada'
+            });
+        }
+
+        const dependiente = new Dependiente(req.body);
+        await dependiente.save();
+
+        res.json({
+            ok: true,
+            dependiente
+        });
+    } catch (error) {
+        console.error(error);
+        res.status(500).json({
+            ok: false,
+            msg: 'Error en crearDependiente'
+        });
+    }
+    
 };
 
-const crearDependiente = (req, res = response) => {
-    res.json({
-        ok: true,
-        msg: 'crearDependiente'
-    });
-};
+const eliminarDependiente = async (req, res = response) => {
+    const { id } = req.params;
 
-const actualizarDependiente = (req, res = response) => {
-    res.json({
-        ok: true,
-        msg: 'actualizarDependiente'
-    });
-};
+    try {
+        const dependiente = await Dependiente.findById(id);
+        if (!dependiente) {
+            return res.status(404).json({
+                ok: false,
+                msg: 'Dependiente no encontrado'
+            });
+        }
 
-const eliminarDependiente = (req, res = response) => {
-    res.json({
-        ok: true,
-        msg: 'eliminarDependiente'
-    });
+        await Dependiente.findByIdAndDelete(id);
+        res.json({
+            ok: true,
+            msg: 'Dependiente eliminado'
+        });
+    } catch (error) {
+        console.error(error);
+        res.status(500).json({
+            ok: false,
+            msg: 'Error en eliminarDependiente'
+        });
+    }
 };
 
 module.exports = {
-    getDependientes,
-    getDependienteId,
-    crearDependiente,
-    actualizarDependiente,
-    eliminarDependiente
+   getDependientes,
+   crearDependientes,
+   eliminarDependientes
+};
+
+       
+
+module.exports = {
+   getDependientes,
+   crearDependiente,
+   eliminarDependiente
 };

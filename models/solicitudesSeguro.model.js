@@ -3,7 +3,7 @@ const {Schema, model} = require('mongoose');
 
 const solicitudSeguroSchema = new Schema({
 
-id_solicitud_seg: {
+    id_solicitud_seg: {
         type: Number,
         required: true,
         unique: true
@@ -34,9 +34,4 @@ solicitudSeguroSchema.method('toJSON', function() {
     object.id = _id;
     return object;
 });
-
-
-
-
-
 module.exports = model('SolicitudSeguro', solicitudSeguroSchema);

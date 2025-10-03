@@ -1,44 +1,68 @@
-const { response } = require('express'); 
+const { response } = require('express');
+const Beneficiario = require('../models/beneficiario.model');
+const Persona = require('../models/personas.model'); 
 
-const getBeneficiarios = (req, res = response) => {
-    res.json({
-        ok: true,
-        msg: 'getBeneficiarios'
-    });
+const getBeneficiarios = async  (req, res = response) => {
+    try {
+        const beneficiarios = await Beneficiario.find();
+        res.json({
+            ok: true,
+            beneficiarios
+        });
+    } catch (error) {
+        console.error(error);
+        res.status(500).json({
+            ok: false,
+            msg: 'Error en getBeneficiarios'
+        });
+    }
 };
 
-const getBeneficiarioId = (req, res = response) => {
-    res.json({
-        ok: true,
-        msg: 'getBeneficiarioId'
-    });
+
+
+const crearBeneficiario = async (req, res = response) => {
+
+    try {
+        const beneficiario = new Beneficiario(req.body);
+        await beneficiario.save();
+        res.json({
+            ok: true,
+            beneficiario
+        });
+    } catch (error) {
+        console.error(error);
+        res.status(500).json({
+            ok: false,
+            msg: 'Error en crearBeneficiario'
+        });
+    }   
 };
 
-const crearBeneficiario = (req, res = response) => {
-    res.json({
-        ok: true,
-        msg: 'crearBeneficiario'
-    });
+const eliminarBeneficiario = async (req, res = response) => {
+    try {
+        const { id } = req.params;
+        const beneficiario = await Beneficiario.findByIdAndDelete(id);
+        if (!beneficiario) {
+            return res.status(404).json({
+                ok: false,
+                msg: 'Beneficiario no encontrado'
+            });
+        }
+        res.json({
+            ok: true,
+            beneficiario
+        });
+    } catch (error) {
+        console.error(error);
+        res.status(500).json({
+            ok: false,
+            msg: 'Error en eliminarBeneficiario'
+        });
+    }
 };
-
-const actualizarBeneficiario = (req, res = response) => {
-    res.json({
-        ok: true,
-        msg: 'actualizarBeneficiario'
-    });
-};
-
-const eliminarBeneficiario = (req, res = response) => {
-    res.json({
-        ok: true,
-        msg: 'eliminarBeneficiario'
-    });
-};
-
 module.exports = {
     getBeneficiarios,
-    getBeneficiarioId,
     crearBeneficiario,
-    actualizarBeneficiario,
     eliminarBeneficiario
 };
+
