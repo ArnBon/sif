@@ -19,14 +19,5 @@ router.put('/:id', [
         formatearFechaRespuesta
 ], actualizarPersona
 );
-
-
 router.delete('/:id', eliminarPersona);
-
-
 module.exports = router;
-
-
-
-
-

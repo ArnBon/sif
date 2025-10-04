@@ -41,6 +41,18 @@ app.use('/api/dependientes', require('./routes/dependientes.routes'));
 app.use('/api/relaciones', require('./routes/relaciones.routes'));
 // fin modulo de solicitud de seguro
 
+// modulo de declaracion de salud
+app.use('/api/declaracionsalud', require('./routes/declaracion_salud.routes'));
+app.use('/api/respuestadeclaracion/', require('./routes/respuesta_declaracion.routes'));
+app.use('/api/detallesenfermedades/', require('./routes/detalles_enfermedades.routes'));
+app.use('/api/intervencionesconsultas/', require('./routes/intervenciones_consultas.routes'));
+app.use('/api/estadossalud/', require('./routes/estados_salud.routes'));
+app.use('/api/preguntasdeclaracion/', require('./routes/preguntas_declaracion.routes'));
+app.use('/api/estadosdeclaracion/', require('./routes/estados_declaracion.routes'));
+app.use('/api/tiposcondicionsalud/', require('./routes/tipos_condicion_salud.routes'));
+app.use('api/tiposintervencion/', require('./routes/tipos_intervencion.routes'));
+// fin modulo de declaracion de salud
+
 
 // 5.1 Seguridad de la aplicacion
 app.use('/api/login', require('./routes/auth.routes'));
