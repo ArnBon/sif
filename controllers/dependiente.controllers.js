@@ -1,5 +1,5 @@
 const { response } = require('express'); 
-const Dependiente = require('../models/dependiente.model');
+const Dependiente = require('../models/dependientes.model');
 const Persona = require('../models/personas.model');
 
 const getDependientes = async (req, res = response) => {
@@ -49,18 +49,17 @@ const crearDependiente = async (req, res = response) => {
 };
 
 const eliminarDependiente = async (req, res = response) => {
-    const { id } = req.params;
+    const did = req.params;
 
     try {
-        const dependiente = await Dependiente.findById(id);
-        if (!dependiente) {
+        const dependienteDB = await Dependiente.findById(did);
+        if (!dependienteDB) {
             return res.status(404).json({
                 ok: false,
                 msg: 'Dependiente no encontrado'
             });
         }
-
-        await Dependiente.findByIdAndDelete(id);
+        await Dependiente.findByIdAndDelete(did);
         res.json({
             ok: true,
             msg: 'Dependiente eliminado'
@@ -73,15 +72,6 @@ const eliminarDependiente = async (req, res = response) => {
         });
     }
 };
-
-module.exports = {
-   getDependientes,
-   crearDependientes,
-   eliminarDependientes
-};
-
-       
-
 module.exports = {
    getDependientes,
    crearDependiente,

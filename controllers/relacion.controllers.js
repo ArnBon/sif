@@ -1,8 +1,8 @@
 const { response } = require('express');
-const Relacion = require('../models/relacion.model');
+const Relacion = require('../models/relaciones.model');
 const Persona = require('../models/personas.model');
 
-const getRelaciones = async (req, res = response) => {
+const getRelacion = async (req, res = response) => {
     try {
         const relaciones = await Relacion.find();
         res.json({
@@ -34,19 +34,22 @@ const crearRelacion = async (req, res = response) => {
        });
    }
 };
+
 const eliminarRelacion = async (req, res = response) => {
-   try {
-       const { id } = req.params;
-       const relacion = await Relacion.findByIdAndDelete(id);
-       if (!relacion) {
+       const rid = req.params;
+   
+    try {
+        const relacionDB = await Relacion.findById(rid);       
+       if (!relacionDB) {
            return res.status(404).json({
                ok: false,
                msg: 'Relacion no encontrada'
            });
        }
+          await Relacion.findByIdAndDelete(rid);
        res.json({
            ok: true,
-           relacion
+           msg: 'Registro eliminado'
        });
    } catch (error) {
        console.error(error);
@@ -58,9 +61,7 @@ const eliminarRelacion = async (req, res = response) => {
 };
 
 module.exports = {
-    getRelaciones,
-    getRelacionId,
+    getRelacion,
     crearRelacion,
-    actualizarRelacion,
     eliminarRelacion
 };                          

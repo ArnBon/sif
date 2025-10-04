@@ -1,5 +1,5 @@
 const { Router } = require('express');
-const { getSolicitudesSeguro, getSolicitudSeguroId, crearSolicitudSeguro, actualizarSolicitudSeguro, eliminarSolicitudSeguro } = require('../controllers/solicitudesSeguro.controller');
+const { getSolicitudesSeguro, getSolicitudSeguroId, crearSolicitudSeguro, actualizarSolicitudSeguro, eliminarSolicitudSeguro } = require('../controllers/solicitud_seguro.controllers');
 
 const router = Router();
 

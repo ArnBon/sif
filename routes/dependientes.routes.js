@@ -1,10 +1,10 @@
 const { Router } = require('express');
-const { getDependientes, crearDependientes, eliminarDependientes } = require('../controllers/dependientes.controller');
+const { getDependientes, crearDependiente, eliminarDependiente } = require('../controllers/dependiente.controllers');
 
 const router = Router();
 
 router.get('/', getDependientes);
-router.post('/', crearDependientes);
-router.delete('/:id', eliminarDependientes);
+router.post('/', crearDependiente);
+router.delete('/:id', eliminarDependiente);
 
 module.exports = router;

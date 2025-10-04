@@ -1,6 +1,5 @@
 const { Router } = require('express');
-const { getBeneficiarios, crearBeneficiario, eliminarBeneficiario } = require('../controllers/beneficiarios.controller');
-
+const { getBeneficiarios, crearBeneficiario, eliminarBeneficiario } = require('../controllers/beneficiario.controllers');
 
 const router = Router();
 

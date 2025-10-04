@@ -1,10 +1,9 @@
 const { Router } = require('express');
-
-const { getRelaciones,  crearRelacion, eliminarRelacion } = require('../controllers/relaciones.controller');
+const { getRelacion,  crearRelacion, eliminarRelacion } = require('../controllers/relacion.controllers');
 
 const router = Router();
 
-router.get('/', getRelaciones);
+router.get('/', getRelacion);
 router.post('/', crearRelacion);
 router.delete('/:id', eliminarRelacion);
 

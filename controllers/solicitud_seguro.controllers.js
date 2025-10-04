@@ -1,5 +1,5 @@
 const { response } = require('express');
-const SolicitudSeguro = require('../models/solicitud_seguro.model');
+const SolicitudSeguro = require('../models/solicitudesSeguro.model');
 
 const getSolicitudesSeguro = async (req, res = response) => {
     try {
@@ -24,9 +24,8 @@ const getSolicitudSeguroId = async (req, res = response) => {
      try {
         //Encuentra la solicitud de seguro por ID
         const solicitudSeguroDB = await SolicitudSeguro.findById(ssid)
-            .populate('id_persona', 'nombre apellido id_tipo_persona')
-            .populate('id_tipo_seguro', 'descripcion codigo')
-            .populate('id_estado_solicitud', 'descripcion codigo');
+            .populate('id_persona', 'primer_apellido segundo_apellido primer_nombre segundo_nombre')
+            
 
         if(!solicitudSeguroDB){
             return res.status(404).json({
@@ -36,18 +35,15 @@ const getSolicitudSeguroId = async (req, res = response) => {
         }
         res.json({
             ok: true,
-            solicitudSeguro: solicitudSeguroDB
+            solicitudSeguroDB
         });
      } catch (error) {
         console.error(error);
         res.status(500).json({
             ok: false,
-            msg: 'Error en getRelacionId'
+            msg: 'Error en getSolicitudesSeguroId'
         });
      }
-
-
-
 };
 
 const crearSolicitudSeguro = async (req, res = response) => {
@@ -64,7 +60,7 @@ const crearSolicitudSeguro = async (req, res = response) => {
             console.error(error);
             res.status(500).json({
                 ok: false,
-                msg: 'Error en crearRelacion'
+                msg: 'Error en crearSolcitudSeguro'
             });        
     }
 };
@@ -113,7 +109,6 @@ const eliminarSolicitudSeguro = async (req, res = response) => {
                 msg: 'Solicitud de seguro no encontrada'
             });
         }
-
         await SolicitudSeguro.findByIdAndDelete(ssid);
         res.json({
             ok: true,
@@ -123,13 +118,9 @@ const eliminarSolicitudSeguro = async (req, res = response) => {
         console.error(error);
         res.status(500).json({
             ok: false,
-            msg: 'Error en eliminarRelacion'
+            msg: 'Error en solicitud de seguro'
         });
-    }
-    res.json({
-        ok: true,
-        msg: 'eliminarRelacion'
-    });
+    }    
 };
 
 module.exports = {

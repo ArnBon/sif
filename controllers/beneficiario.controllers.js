@@ -18,8 +18,6 @@ const getBeneficiarios = async  (req, res = response) => {
     }
 };
 
-
-
 const crearBeneficiario = async (req, res = response) => {
 
     try {
@@ -39,18 +37,20 @@ const crearBeneficiario = async (req, res = response) => {
 };
 
 const eliminarBeneficiario = async (req, res = response) => {
+    const bid = req.params;
     try {
-        const { id } = req.params;
-        const beneficiario = await Beneficiario.findByIdAndDelete(id);
-        if (!beneficiario) {
+        
+        const beneficiarioDB = await Beneficiario.findById(bid);
+        if (!beneficiarioDB) {
             return res.status(404).json({
                 ok: false,
                 msg: 'Beneficiario no encontrado'
             });
         }
+        await Beneficiario.findByIdAndDelete(bid);
         res.json({
             ok: true,
-            beneficiario
+            msg: 'Registro eliminado'
         });
     } catch (error) {
         console.error(error);
