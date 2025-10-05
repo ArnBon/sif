@@ -43,7 +43,7 @@ app.use('/api/relaciones', require('./routes/relaciones.routes'));
 
 // modulo de declaracion de salud
 app.use('/api/declaracionsalud', require('./routes/declaracion_salud.routes'));
-app.use('/api/respuestadeclaracion/', require('./routes/respuesta_declaracion.routes'));
+app.use('/api/respuestadeclaracion/', require('./routes/respuestas_declaraciones.routes'));
 app.use('/api/detallesenfermedades/', require('./routes/detalles_enfermedades.routes'));
 app.use('/api/intervencionesconsultas/', require('./routes/intervenciones_consultas.routes'));
 app.use('/api/estadossalud/', require('./routes/estados_salud.routes'));
