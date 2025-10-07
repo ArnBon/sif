@@ -62,7 +62,7 @@ const intervencionConsultaSchema = new Schema ({
 // Método para transformar el JSON (opcional)
 declaracionSaludSchema.method('toJSON', function() {
   const { __v, _idalgo, ...object } = this.toObject();
-  object.did = _idalgo;
+  object.icid = _idalgo;
   return object;
 });
 

@@ -2,7 +2,7 @@ const { Router } = require('express');
 const { getDeclaracionSalud, getDeclaracionSaludId, 
     crearDeclaracionSalud,
      actualizarDeclaracionSalud,
-      eliminarDeclaracionSalud } = require('../controllers/declaracion_salud.controller');
+      eliminarDeclaracionSalud } = require('../controllers/dec_salud/declaracion_salud.controller');
 
 const router = Router();
 

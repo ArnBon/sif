@@ -1,9 +1,9 @@
 const { Router } = require('express');
-const {getPreguntasDeclaracion,
+const { getPreguntasDeclaracion,
 getPreguntasDeclaracionId,
 crearPreguntasDeclaracion,
 actualizarPreguntasDeclaracion,
-eliminarPreguntasDeclaracion} = require('../controllers/preguntas_declaracion.controller');
+eliminarPreguntasDeclaracion} = require('../controllers/dec_salud/preguntas_declaracion.controller');
 
 const router = Router();
 

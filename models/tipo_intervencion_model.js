@@ -22,7 +22,7 @@ const tipoIntervencionSchema = new Schema({
 // Método para transformar el JSON (opcional)
 tipoIntervencionSchema.method('toJSON', function() {
   const { __v, _idalgo, ...object } = this.toObject();
-  object.did = _idalgo;
+  object.tiid = _idalgo;
   return object;
 });
 

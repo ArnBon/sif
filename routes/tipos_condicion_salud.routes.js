@@ -1,5 +1,9 @@
 const { Router } = require('express');
-const {getTiposCondicionSalud, getTipoCondicionSaludId, crearTipoCondicionSalud, actualizarTipoCondicionSalud,eliminarTipoCondicionSalud } = require('../controllers/tipos_condicion_salud.controller');
+const { getTiposCondicionSalud,
+        getTipoCondicionSaludId,
+        crearTipoCondicionSalud,
+        actualizarTipoCondicionSalud,
+        eliminarTipoCondicionSalud } = require('../controllers/tipos_condicion_salud.controller');
 
 const router = Router();
 

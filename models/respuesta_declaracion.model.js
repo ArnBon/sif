@@ -37,7 +37,7 @@ const respuestaDeclaracionSchema = new Schema({
 // Método para transformar el JSON (opcional)
 respuestaDeclaracionSchema.method('toJSON', function() {
   const { __v, _idalgo, ...object } = this.toObject();
-  object.did = _idalgo;
+  object.rdid = _idalgo;
   return object;
 });
 

@@ -1,5 +1,5 @@
 const { Router } = require('express');
-const { getEstadosDeclaracion } = require('../controllers/estados_declaracion.controller');
+const { getEstadosDeclaracion } = require('../controllers/dec_salud/estados_declaracion.controller');
 
 const router = Router();
 

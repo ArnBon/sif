@@ -1,7 +1,7 @@
 const { Router } = require('express');
 const { getDetallesEnfermedades,getDetallesEnfermedadesId,
 crearDetallesEnfermedades, actualizarDetallesEnfermedades,
-eliminarDetallesEnfermedades } = require('../controllers/detalles_enfermedades.controller');
+eliminarDetallesEnfermedades } = require('../controllers/dec_salud/detalles_enfermedades.controller');
 
 const router = Router();
 

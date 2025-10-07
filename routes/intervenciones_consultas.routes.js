@@ -1,6 +1,6 @@
 const { Router } = require('express');
 const { getIntervencionesConsultas, getIntervencionesConsultasId, crearIntervencionesConsultas,actualizarIntervencionesConsultas,
-eliminarIntervencionesConsultas } = require('../controllers/intervenciones_consultas.controller');
+eliminarIntervencionesConsultas } = require('../controllers/dec_salud/intervenciones_consultas.controller');
 
 const router = Router();
 

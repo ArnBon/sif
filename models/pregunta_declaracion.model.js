@@ -31,7 +31,7 @@ const preguntaDeclaracionSchema = new Schema({
 // Método para transformar el JSON (opcional)
 preguntaDeclaracionSchema.method('toJSON', function() {
   const { __v, _idalgo, ...object } = this.toObject();
-  object.did = _idalgo;
+  object.pdid = _idalgo;
   return object;
 });
 

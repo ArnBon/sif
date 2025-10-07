@@ -1,4 +1,4 @@
-const {Schema, model} = require('mongoose');
+ const {Schema, model} = require('mongoose');
 
 const tipoCondicionSaludSchema = new Schema({
 
@@ -21,7 +21,7 @@ const tipoCondicionSaludSchema = new Schema({
 // Método para transformar el JSON (opcional)
 tipoCondicionSaludSchema.method('toJSON', function() {
   const { __v, _idalgo, ...object } = this.toObject();
-  object.did = _idalgo;
+  object.tcsid = _idalgo;
   return object;
 });
 
