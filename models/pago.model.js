@@ -56,7 +56,7 @@ const pagoSchema = new Schema({
     },
     usuario_creacion: {
         type: String,
-        required: [true, 'El usuario de creación es obligatorio']
+       // required: [true, 'El usuario de creación es obligatorio']
     },
     usuario_actualizacion: {
         type: String
