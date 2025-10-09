@@ -50,8 +50,15 @@ app.use('/api/estadossalud/', require('./routes/estados_salud.routes'));
 app.use('/api/preguntasdeclaracion/', require('./routes/preguntas_declaracion.routes'));
 app.use('/api/estadosdeclaracion/', require('./routes/estados_declaracion.routes'));
 app.use('/api/tiposcondicionsalud/', require('./routes/tipos_condicion_salud.routes'));
-app.use('api/tiposintervencion/', require('./routes/tipos_intervencion.routes'));
-// fin modulo de declaracion de salud
+app.use('/api/tiposintervencion/', require('./routes/tipos_intervencion.routes'));
+// fin modulo de declaracion de 
+
+// modulo forma de pago
+app.use('/api/pago', require('./routes/pago.routes'));
+app.use('/apiformapago/', require('./routes/forma_pago.routes'));
+app.use('/api/banco', require('./routes/banco.routes'));
+app.use('/api/tipocuenta', require('./routes/tipo_cuenta.routes'));
+// fin modulo forma de pago
 
 
 // 5.1 Seguridad de la aplicacion
