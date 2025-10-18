@@ -11,7 +11,7 @@ const generoSchema = new Schema({
     type: String,
     required: [true, 'El código es obligatorio'],
     uppercase: true,
-    enum: ['M', 'F', 'O'], // Masculino, Femenino, Otro
+    enum: ['M', 'F'], // Masculino, Femenino
     unique: true
   }
 }, {

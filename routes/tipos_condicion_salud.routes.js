@@ -3,7 +3,7 @@ const { getTiposCondicionSalud,
         getTipoCondicionSaludId,
         crearTipoCondicionSalud,
         actualizarTipoCondicionSalud,
-        eliminarTipoCondicionSalud } = require('../controllers/tipos_condicion_salud.controller');
+        eliminarTipoCondicionSalud } = require('../controllers//dec_salud/tipos_condicion_salud.controller');
 
 const router = Router();
 

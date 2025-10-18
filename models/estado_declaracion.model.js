@@ -13,14 +13,16 @@ const estadoDeclaracionSchema = new Schema({
     {
         type: String,
         required: true,
-        maxlength: 100
+        uppercase: true,
+       enum: ['BORRADOR', 'COMPLETA', 'VERIFICADA', 'RECHAZADA'],
     },
 
     descripcion:
     {
         type: String,
         required: true,
-        maxlength: 500
+        enum: ['Declaración en proceso de llenado', 'Declaración finalizada por el cliente', 'Declaración aprobada por médico', 'Declaración rechazada por condiciones de salud'],
+        
     },
 });
 

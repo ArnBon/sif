@@ -1,7 +1,7 @@
 const { response } = require('express');
 const DeclaracionSalud = require('../../models/declaracion_salud.model');
 const Persona = require('../../models/personas.model');
-const EdoSalud = require('../../models/edo_salud.model');
+const EdoSalud = require('../../models/estado_salud.model');
 const Usuario = require('../../models/usuarios.models');  
 
  const getDeclaracionSalud = async (req, res = response) => {
@@ -45,7 +45,7 @@ const Usuario = require('../../models/usuarios.models');
         console.error(error);
         res.status(500).json({
             ok:false,
-            msg: 'Error al encontrar declaaciones'
+            msg: 'Error al encontrar declaraciones'
         });        
     }
  }

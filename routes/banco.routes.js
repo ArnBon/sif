@@ -1,6 +1,6 @@
 const { Router } = require('express');
 const { getBanco, getBancoId, crearBanco,actualizarBanco,
-eliminarBanco } = require('../controllers/dec_salud/intervenciones_consultas.controller');
+eliminarBanco } = require('../controllers/forma_pago/banco.controllers');
 
 const router = Router();
 

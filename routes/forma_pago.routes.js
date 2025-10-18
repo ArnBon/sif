@@ -1,6 +1,6 @@
 const { Router } = require('express');
 const { getFormaPago, getFormaPagoId, crearFormaPago,actualizarFormaPago,
-eliminarFormaPago } = require('../controllers/forma_pago/formas_pago.controller');
+eliminarFormaPago } = require('../controllers/forma_pago/forma_pago.controllers');
 
 const router = Router();
 

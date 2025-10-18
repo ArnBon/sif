@@ -3,7 +3,7 @@ const { getRespuestasDeclaracion,
 getRespuestasDeclaracionId,
 crearRespuestasDeclaracion,
 actualizarRespuestasDeclaracion,
-eliminarRespuestasDeclaracion } = require('../controllers/respuesta_declaracion.controller');
+eliminarRespuestasDeclaracion } = require('../controllers/dec_salud/respuesta_declaracion.controller');
 
 const router = Router();
 

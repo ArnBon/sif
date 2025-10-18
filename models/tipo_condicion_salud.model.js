@@ -20,8 +20,8 @@ const tipoCondicionSaludSchema = new Schema({
 });
 // Método para transformar el JSON (opcional)
 tipoCondicionSaludSchema.method('toJSON', function() {
-  const { __v, _idalgo, ...object } = this.toObject();
-  object.tcsid = _idalgo;
+  const { __v, _id, ...object } = this.toObject();
+  object.tcsid = _id;
   return object;
 });
 

@@ -22,6 +22,34 @@ const getEstadosDeclaracion = async (req, res = response) => {
     }
 }
 
+//para administrador
+const actualizarEstadosDeclaracion = async (req, res = response) => {
+    const edid = req.params.id;
+    try {
+        const edoDeclaracionDB = await EstadoDeclaracion.findById(edid);
+        if(!edoDeclaracionDB){
+            return res.status(404).json({
+                ok:false,
+                msg:'No existe registro por ese ID'
+            });
+        }
+        const campos = req.body;
+        const estadoDeclaracion = await EstadoDeclaracion.findByIdAndUpdate(edid, campos, {new: true})
+        res.json({
+            ok:true,
+            msg: 'registro actualizado satisfactoriamente'
+        });
+        
+    } catch (error) {
+        console.error(error);
+        res.status(500).json({
+            ok:false,
+            msg: 'Error al encontrar estado de declaracion'
+        });        
+    }
+}
+
 module.exports = {
-    getEstadosDeclaracion
+    getEstadosDeclaracion,
+    actualizarEstadosDeclaracion
 }

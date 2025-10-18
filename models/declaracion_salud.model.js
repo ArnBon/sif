@@ -1,6 +1,6 @@
 const { Schema, model } = require('mongoose');
-const Persona = require('../models/persona.model');
-const EdoSalud = require('../models/edo_salud.model');
+const Persona = require('../models/personas.model');
+const EdoSalud = require('../models/estado_salud.model');
 const Usuario = require('../models/usuarios.models');   
 
 

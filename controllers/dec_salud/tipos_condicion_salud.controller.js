@@ -8,14 +8,14 @@ const TipoCondicionSalud = require( '../../models/tipo_condicion_salud.model' );
             const tipoCondicionSalud = await TipoCondicionSalud.find({}, 'id_tipo_condicion nombre descripcion')
             res.json({
                 ok:true,
-                msg: 'tarea realizada'
+               tipoCondicionSalud
             });
             
         } catch (error) {
             console.error(error);
             res.status(500).json({
                 ok:false,
-                msg: 'Error'
+                msg: 'Error contacte ala dministrador del sistema'
             });            
         }
      }
@@ -51,7 +51,7 @@ const TipoCondicionSalud = require( '../../models/tipo_condicion_salud.model' );
             await tipoCondicionSalud.save();
             res.json({
             ok:true,
-            msg: 'Pregunta creada satisfactoriamente'
+            msg: 'Tipo condición creada satisfactoriamente'
         });  
         } catch (error) {
             console.error(error);
@@ -93,7 +93,7 @@ const TipoCondicionSalud = require( '../../models/tipo_condicion_salud.model' );
      }
 
      const eliminarTipoCondicionSalud = async (req, res = response) => {
-        const tcsid = req.params.id
+        const tcsid = req.params.id;
         try {
             const tipoCondicionDB = await TipoCondicionSalud.findById(tcsid)
             if(!tipoCondicionDB){
@@ -103,7 +103,7 @@ const TipoCondicionSalud = require( '../../models/tipo_condicion_salud.model' );
                 });
             }
                 //elimina el registro como tal
-                await TipoCondicionSalud.findByIdAndDelete
+                await TipoCondicionSalud.findByIdAndDelete(tcsid);
             res.json({
                 ok:true,
                 msg: 'Tipo condición salud eliminada'

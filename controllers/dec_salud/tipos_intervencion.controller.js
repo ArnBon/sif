@@ -7,10 +7,10 @@ const TipoIntervencion = require('../../models/tipo_intervencion_model');
 const getTiposIntervencion = async (req, res = response) => {
     try {
         // Obtener las preguntas que hay
-        const tipoIntervencion = await TipoIntervencion.find({}, 'id_tipo_intervencion nombre descripcion')
+        const tipoIntervencion = await TipoIntervencion.find({}, 'id_tipo_intervencion nombre descripcion');
         res.json({
         ok:true,
-        TipoIntervencion
+        tipoIntervencion
     }); 
     } catch (error) {
         console.error(error);
@@ -23,14 +23,13 @@ const getTiposIntervencion = async (req, res = response) => {
 
 const getTiposIntervencionId = async (req, res = response) => {
     const tiid = req.params.id;
-    try {
-        const tipoIntervencionDB = await tipoIntervencion.findById(tiid)
-        .populate('id_tipo_intervencion')
+    try {        
+        const tipoIntervencionDB = await TipoIntervencion.findById(tiid);       
 
         if(!tipoIntervencionDB){
             return res.status(404).json({
                 ok:false,
-                msg: 'No existe esa intervencion'
+                msg: 'Tipo de intervención no encontrado',
             });
         }
         res.json({
@@ -92,9 +91,9 @@ const actualizarTiposIntervencion = async (req, res = response) => {
 }
 
 const eliminarTiposIntervencion = async (req, res = response) => {
-    const pdid = req.params.id;
+    const tiid = req.params.id;
     try {
-        const tipoIntervencionDB = await TipoIntervencion.findById(pdid);
+        const tipoIntervencionDB = await TipoIntervencion.findById(tiid);
         if(!tipoIntervencionDB){
             return res.status(404).json({
                 ok:false,
@@ -102,7 +101,7 @@ const eliminarTiposIntervencion = async (req, res = response) => {
             });
         }
             //elimina el registro como tal
-                await TipoIntervencion.findByIdAndDelete
+                await TipoIntervencion.findByIdAndDelete(tiid);
         res.json({
         ok:true,
         msg: 'Registro eliminado...'

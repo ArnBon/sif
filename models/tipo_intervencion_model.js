@@ -3,7 +3,7 @@ const {Schema, model} = require('mongoose');
 const tipoIntervencionSchema = new Schema({
 
     id_tipo_intervencion: {
-         type: Number,
+        type: Number,
         required: true,
         unique: true
     },
@@ -21,8 +21,8 @@ const tipoIntervencionSchema = new Schema({
 });
 // Método para transformar el JSON (opcional)
 tipoIntervencionSchema.method('toJSON', function() {
-  const { __v, _idalgo, ...object } = this.toObject();
-  object.tiid = _idalgo;
+  const { __v, _id, ...object } = this.toObject();
+  object.tiid = _id;
   return object;
 });
 

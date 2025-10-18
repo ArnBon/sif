@@ -144,7 +144,7 @@ const { parsearFechaNacimientoCrear, parsearFechaNacimientoActualizar, formatear
             ok: false,
             msg: 'hable con el administrador'
         });
-    }
+      }
     }
 
 module.exports = {

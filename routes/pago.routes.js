@@ -1,6 +1,6 @@
 const { Router } = require('express');
-const { getPagos, getPagosId, crearPagos,actualizarPagos,
-eliminarPagos } = require('../controllers/dec_salud/pagos.controller');
+const { getPagos, getPagosId, crearPagos, actualizarPagos,
+eliminarPagos } = require('../controllers/forma_pago/pago.controllers');
 
 const router = Router();
 

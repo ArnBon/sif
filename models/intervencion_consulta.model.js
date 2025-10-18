@@ -1,7 +1,7 @@
 const { Schema, model } = require('mongoose');
-const Persona = require('../models/persona.model');
-const TipoIntervencion = require();
-const RespuestaDeclaracion = require();
+const Persona = require('../models/personas.model');
+const TipoIntervencion = require('../models/tipo_intervencion_model');
+const RespuestaDeclaracion = require('../models/respuesta_declaracion.model');
 
 
 const intervencionConsultaSchema = new Schema ({
@@ -60,7 +60,7 @@ const intervencionConsultaSchema = new Schema ({
 });
 
 // Método para transformar el JSON (opcional)
-declaracionSaludSchema.method('toJSON', function() {
+intervencionConsultaSchema.method('toJSON', function() {
   const { __v, _idalgo, ...object } = this.toObject();
   object.icid = _idalgo;
   return object;
