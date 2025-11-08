@@ -56,7 +56,7 @@ const FormaPago = require('../../models/forma_pago.model');
             console.error(error)
             res.status(500).json({
                 ok:true,
-                msg: 'Error comuniquese con el administrador del sistema'
+                msg: 'Error comuniquese con el administrador del sistema'                
             });            
         }
     }
@@ -98,7 +98,7 @@ const FormaPago = require('../../models/forma_pago.model');
         const fpid = req.params.id
         try {
 
-            const formaPagoDB = await Pago.findById(fpid)
+            const formaPagoDB = await FormaPago.findById(fpid)
 
             if(!formaPagoDB){
                 return res.status(404).json({
@@ -107,7 +107,7 @@ const FormaPago = require('../../models/forma_pago.model');
                 });
             }
             //eliminar el registro como tal
-            await FormaPago.findByIdAndDelete
+            await FormaPago.findByIdAndDelete(fpid)
             res.json({
                 ok:true,
                 msg: 'Registro eliminado'

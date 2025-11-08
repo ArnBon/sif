@@ -6,7 +6,7 @@ const Banco = require('../../models/banco.model');
     const getBanco = async (req, res = response) => {
         try {
              //obtener todas las declaraciones
-                const banco = await Banco.find({}, 'id_persona id_frecuencia id_moneda id_forma_banco id_banco id_tipo_cuenta num_cta num_tarjeta fecha_banco usuario_creacion usuario_actualizacion' )
+                const banco = await Banco.find({}, 'cod_banco nombre_banco pais_banco activo' )
             res.json({
                 ok:true,
                 banco
@@ -94,7 +94,7 @@ const Banco = require('../../models/banco.model');
         const bid = req.params.id
         try {
 
-            const bancoDB = await banco.findById(bid)
+            const bancoDB = await Banco.findById(bid)
 
             if(!bancoDB){
                 return res.status(404).json({
@@ -103,7 +103,7 @@ const Banco = require('../../models/banco.model');
                 });
             }
             //eliminar el registro como tal
-            await Banco.findByIdAndDelete
+            await Banco.findByIdAndDelete(bid)
             res.json({
                 ok:true,
                 msg: 'Registro eliminado'

@@ -108,7 +108,7 @@ const eliminarDetallesEnfermedades = async (req, res = response) => {
             });
         }
         //eliminar el registro como tal
-        await DetalleEnfermedad.findByIdAndDelete
+        await DetalleEnfermedad.findByIdAndDelete(deid)
         res.json({
             ok:true,
             message: 'Registro Eliminado'
@@ -121,10 +121,46 @@ const eliminarDetallesEnfermedades = async (req, res = response) => {
         });        
     }
 }
+
+
+const getDetalleByRespuesta = async (req, res = response) => {
+    const idRespuesta = req.params.idRespuesta;  // ⬅️ Coincide con la ruta
+    
+    try {
+        // Buscar por id_declaracion (ObjectId)
+        const detalleEDB = await DetalleEnfermedad.find({ 
+            id_respuesta: idRespuesta 
+        })
+         .populate('id_respuesta')
+         .populate('id_medico_tratante')
+         .populate('id_tipo_condicion')
+        
+        if(!detalleEDB || detalleEDB.length === 0){
+            return res.status(404).json({
+                ok: false,
+                msg: 'No se encontraron detalles de por respuesta'
+            });
+        }        
+        res.json({
+            ok: true,
+            detalles: detalleEDB,
+            count: detalleEDB.length
+        });
+    } catch (error) {
+        console.error(error);
+        res.status(500).json({
+            ok: false,
+            msg: 'Error al obtener lso detalles de las respuestas'
+        });        
+    }
+}
+
+
 module.exports = {
     getDetallesEnfermedades,
     getDetallesEnfermedadesId,    
     crearDetallesEnfermedades, 
     actualizarDetallesEnfermedades,
-    eliminarDetallesEnfermedades
+    eliminarDetallesEnfermedades,
+    getDetalleByRespuesta
 }

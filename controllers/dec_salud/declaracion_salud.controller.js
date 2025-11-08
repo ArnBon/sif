@@ -4,6 +4,8 @@ const Persona = require('../../models/personas.model');
 const EdoSalud = require('../../models/estado_salud.model');
 const Usuario = require('../../models/usuarios.models');  
 
+
+
  const getDeclaracionSalud = async (req, res = response) => {
     try {
         //Obtener todas las declaraciones de salud
@@ -112,7 +114,7 @@ const Usuario = require('../../models/usuarios.models');
             });
         } 
         //elimina el registro como tal
-        await DeclaracionSalud.findByIdAndDelete       
+        await DeclaracionSalud.findByIdAndDelete(dsid)       
         res.json({
             ok:true,
             message: 'Registro Eliminado'
@@ -126,10 +128,84 @@ const Usuario = require('../../models/usuarios.models');
     }
  }
 
+ 
+const getDeclaracionesByPersona = async (req, res = response) => {
+    const idPersona = req.params.idPersona;
+
+    try {
+        // Encuentro las declaraciones por el id_persona
+        const declaracionesDB = await DeclaracionSalud.find({ id_persona: idPersona })
+            .populate('id_persona')
+            .populate('id_edo_salud')
+            .populate('usuario_creacion')
+            .sort({ fecha_declaracion: -1 });
+        
+        if(!declaracionesDB || declaracionesDB.length === 0){
+            return res.status(404).json({
+                ok: false,
+                msg: 'No se encontraron declaraciones para esta persona'
+            });
+        }        
+        res.json({
+            ok: true,
+            declaraciones: declaracionesDB,
+            count: declaracionesDB.length
+        });
+    } catch (error) {
+        console.error(error);
+        res.status(500).json({
+            ok: false,
+            msg: 'Error al obtener declaraciones de la persona'
+        });        
+    }
+}
+
+const updateDeclaracionesByPersona = async (req, res = response) => {
+    const idPersona = req.params.idPersona;
+    const { id_edo_salud, observaciones, fecha_declaracion } = req.body;
+
+    try {
+        // Actualizar TODAS las declaraciones de la persona
+        const result = await DeclaracionSalud.updateMany(
+            { id_persona: idPersona },
+            { 
+                $set: { 
+                    ...(id_edo_salud && { id_edo_salud }),
+                    ...(observaciones && { observaciones }),
+                    ...(fecha_declaracion && { fecha_declaracion })
+                } 
+            }
+        );
+
+        if(result.matchedCount === 0){
+            return res.status(404).json({
+                ok: false,
+                msg: 'No se encontraron declaraciones para esta persona'
+            });
+        }
+
+        res.json({
+            ok: true,
+            msg: `Se actualizaron ${result.modifiedCount} declaraciones`,
+            data: result
+        });
+        
+    } catch (error) {
+        console.error(error);
+        res.status(500).json({
+            ok: false,
+            msg: 'Error al actualizar declaraciones'
+        });        
+    }
+}
+
+
 module.exports = {
      getDeclaracionSalud, 
      getDeclaracionSaludId, 
      crearDeclaracionSalud,
      actualizarDeclaracionSalud,
-     eliminarDeclaracionSalud
+     eliminarDeclaracionSalud,
+     getDeclaracionesByPersona,// ← Nuevo
+     updateDeclaracionesByPersona 
 }

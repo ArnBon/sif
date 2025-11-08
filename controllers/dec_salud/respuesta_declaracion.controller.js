@@ -104,7 +104,7 @@ const DeclaracionSalud = require('../../models/declaracion_salud.model');
                 });
             }            
             //elimina el registro como tal
-            await RespuestaDeclaracion.findByIdAndDelete
+            await RespuestaDeclaracion.findByIdAndDelete(rdid)
             res.json({
                 ok:true,
                 msg: 'tarea realizada'
@@ -120,6 +120,37 @@ const DeclaracionSalud = require('../../models/declaracion_salud.model');
     }
 
 
+    const getRespuestaByDeclaracion = async (req, res = response) => {
+    const idDeclaracion = req.params.idDeclaracion;  // ⬅️ Coincide con la ruta
+    
+    try {
+        // Buscar por id_declaracion (ObjectId)
+        const respuestasDB = await RespuestaDeclaracion.find({ 
+            id_declaracion: idDeclaracion 
+        })
+        .populate('id_declaracion')  // 
+        .populate('id_pregunta');    // 
+        
+        if(!respuestasDB || respuestasDB.length === 0){
+            return res.status(404).json({
+                ok: false,
+                msg: 'No se encontraron respuestas para esta declaración'
+            });
+        }        
+        res.json({
+            ok: true,
+            respuestas: respuestasDB,
+            count: respuestasDB.length
+        });
+    } catch (error) {
+        console.error(error);
+        res.status(500).json({
+            ok: false,
+            msg: 'Error al obtener las respuestas de la declaración'
+        });        
+    }
+}
+
 
 
 
@@ -128,5 +159,6 @@ module.exports = {
     getRespuestasDeclaracionId,
     crearRespuestasDeclaracion,
     actualizarRespuestasDeclaracion,
-    eliminarRespuestasDeclaracion
+    eliminarRespuestasDeclaracion,
+    getRespuestaByDeclaracion
 }

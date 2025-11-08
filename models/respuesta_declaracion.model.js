@@ -4,12 +4,7 @@ const PreguntaDeclaracion = require('../models/pregunta_declaracion.model');
 
 const respuestaDeclaracionSchema = new Schema({
 
-     id_respuesta: {
-        type: Number,
-        required: true,
-        unique: true
 
-     }, 
     id_declaracion: {
         type: Schema.Types.ObjectId,
         ref: 'DeclaracionSalud',

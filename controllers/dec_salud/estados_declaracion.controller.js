@@ -3,15 +3,56 @@ const EstadoDeclaracion = require('../../models/estado_declaracion.model');
 
 
 
-
+const crearEstadoDeclaracion = async (req, res = response) => {
+    try {
+        const { id_edo_declaracion, nombre, descripcion } = req.body;
+        
+        // Verificar si ya existe
+        const estadoExistente = await EstadoDeclaracion.findOne({ 
+            $or: [
+                { id_edo_declaracion: id_edo_declaracion },
+                { nombre: nombre }
+            ]
+        });
+        
+        if(estadoExistente) {
+            return res.status(400).json({
+                ok: false,
+                msg: 'Ya existe un estado con ese ID o nombre'
+            });
+        }
+        
+        // Crear nuevo estado
+        const nuevoEstado = new EstadoDeclaracion({
+            id_edo_declaracion,
+            nombre, 
+            descripcion
+        });
+        
+        await nuevoEstado.save();
+        
+        res.json({
+            ok: true,
+            msg: 'Estado de declaración creado correctamente',
+            data: nuevoEstado
+        });
+        
+    } catch (error) {
+        console.error(error);
+        res.status(500).json({
+            ok: false,
+            msg: 'Error al crear estado de declaración'
+        });
+    }
+}
 
 const getEstadosDeclaracion = async (req, res = response) => {
     try {
         // Obtener las preguntas que hay
-        const edoDeclaracion = await EstadoDeclaracion.find({}, 'id_tipo_intervencion nombre descripcion')
+        const edoDeclaracion = await EstadoDeclaracion.find({}, 'id_edo_declaracion nombre descripcion')
         res.json({
         ok:true,
-        EstadoDeclaracion
+        edoDeclaracion
     }); 
     } catch (error) {
         console.error(error);
@@ -50,6 +91,7 @@ const actualizarEstadosDeclaracion = async (req, res = response) => {
 }
 
 module.exports = {
+    crearEstadoDeclaracion,
     getEstadosDeclaracion,
     actualizarEstadosDeclaracion
 }

@@ -5,8 +5,7 @@ const formaPagoSchema = new Schema({
 
     desc_forma_pago: {
         type: String,
-        required: [true, 'La descripción de la forma de pago es obligatoria'],
-        unique: true,
+        required: [true, 'La descripción de la forma de pago es obligatoria'],        
         maxlength: 30
     },
     requiere_cuenta: {

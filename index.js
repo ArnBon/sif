@@ -55,7 +55,7 @@ app.use('/api/tiposintervencion/', require('./routes/tipos_intervencion.routes')
 
 // modulo forma de pago
 app.use('/api/pago/', require('./routes/pago.routes'));
-app.use('/apiformapago/', require('./routes/forma_pago.routes'));
+app.use('/api/formapago/', require('./routes/forma_pago.routes'));
 app.use('/api/banco/', require('./routes/banco.routes'));
 // fin modulo forma de pago
 

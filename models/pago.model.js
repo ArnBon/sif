@@ -1,26 +1,27 @@
 const { Schema, model } = require('mongoose');
 
 
+
 const pagoSchema = new Schema({
    id_persona: {
         type: Schema.Types.ObjectId,
         ref: 'Persona',
-        required: [true, 'La persona es obligatoria']
+        required: true
     },
     id_frecuencia: {
         type: Schema.Types.ObjectId,
         ref: 'Frecuencia',
-        required: [true, 'La frecuencia de pago es obligatoria']
+        required: true
     },
     id_moneda: {
         type: Schema.Types.ObjectId,
         ref: 'Moneda',
-        required: [true, 'La moneda es obligatoria']
+        required: true
     },
     id_forma_pago: {
         type: Schema.Types.ObjectId,
         ref: 'FormaPago',
-        required: [true, 'La forma de pago es obligatoria']
+        required: true
     },
     id_banco: {
         type: Schema.Types.ObjectId,
@@ -52,7 +53,7 @@ const pagoSchema = new Schema({
     },
     fecha_pago: {
         type: Date,
-        required: [true, 'La fecha de pago es obligatoria']
+        required: true
     },
     usuario_creacion: {
         type: String,

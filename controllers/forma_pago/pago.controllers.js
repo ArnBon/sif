@@ -1,5 +1,10 @@
 const { response } = require('express');
 const Pago = require('../../models/pago.model');
+const FormaPago = require('../../models/forma_pago.model');
+const Banco = require('../../models/banco.model');
+const Frecuencia = require('../../models/frecuencia.model');
+const Moneda = require('../../models/moneda.model');
+const TipoCuenta = require('../../models/tipo_cuenta.model');
 
 
 
@@ -24,10 +29,10 @@ const Pago = require('../../models/pago.model');
         const pid = req.params.id
         try {
             const pagoDB = await Pago.findById(pid)
-            .populate('id_frecuencia')
-            .populate('id_moneda')
             .populate('id_forma_pago')
             .populate('id_banco')
+            .populate('id_frecuencia')
+            .populate('id_moneda')
             .populate('id_tipo_cuenta')
             
             if(!pagoDB){
@@ -85,7 +90,7 @@ const Pago = require('../../models/pago.model');
                //delete campos.fecha_creacion;
     
             //actualizar el pago como tal
-              const pago = await Pago.findByIdAndUpdate(deid, campos, {new: true});
+              const pago = await Pago.findByIdAndUpdate(pid, campos, {new: true});
             res.json({
                 ok:true,
                 msg: 'Registro actualizado'
@@ -112,7 +117,7 @@ const Pago = require('../../models/pago.model');
                 });
             }
             //eliminar el registro como tal
-            await Pago.findByIdAndDelete
+            await Pago.findByIdAndDelete(pid)
             res.json({
                 ok:true,
                 msg: 'Registro eliminado'
